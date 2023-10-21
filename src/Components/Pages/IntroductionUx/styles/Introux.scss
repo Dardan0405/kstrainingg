@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.IntroductionToUxBackground{
+    background: linear-gradient(rgba(var(--linear-rgb),0.40),rgba(var(--linear-rgb),040)),
+    url('../../../../assets/IntroUx/background.webp');
+    
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    display: flex;
+    padding: max(36px,2%) 5% max(4px,1%);
+    margin-top: 5%;
+    @media (max-width : 1000px){
+        margin-top: 0%;
+    }
+    .Right-SideIntroUX{
+        display: flex;
+        flex-direction: column;
+    .LinkIntrotoUX{
+        color: rgb(2445,245,251,100%);
+        display: flex;
+        flex-direction: row;
+        width: 71%;
+        cursor: pointer;
+        justify-content: start;
+        align-items: center;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        a{
+            color: rgb(245, 245, 251,69%);
+            font-family: 'Poppins','sans=-serif' ;
+        }
+        .ArrowIntrotoUx{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            margin: max(0px,0vw) 5px max(0px,0vw);
+        }
+        @media (max-width: 552px){
+            width: 100%;
+        }
+    @media (max-width: 392px){
+        font-size: 10px;
+    }
+    &:hover a,&:hover .ArrowIntrotoUx {
+        color: #fff;
+    }
+    }
+    .Ttile-IntroUX{
+        padding: max(2.4%,1.7vw) 0% max(0.1%,0vw);
+        font-size: 35px;
+        width: max(71%,2vw);
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(245, 245, 251,100%);
+        span{
+            font-weight: 900;
+
+        }
+        @media (max-width:400px){
+            width: max(90%,2vw);
+            font-size: 30px;
+        }
+    }
+    .Description-IntroUX{
+        position: relative;
+        color: rgb(245, 245,251,80%);
+        display: flex;
+        width: 67%;
+        padding: max(20px,0.1vw)0% max(1px,0.1vw);
+        font-size: 17px;
+       font-family: 'Poppins', sans-serif;
+       @media (max-width : 400px){
+        width: 75%;
+        font-size: 17px;
+       }
+    }
+
+    .Profile-IntroUx{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 81%;
+        margin: max(0px,0vw) -1% max(0px,0vw);
+        padding: max(21px,0.5vw) 0px max(1px,0.5vw);
+        .PhotoProfile-IntroUX{
+            transform: scale(0.9);
+        }
+        .NameSurname-IntroUX{
+            display: flex;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            align-items: center;
+            font-size: 14px;
+            color: rgb(245, 245, 251,100%);
+            margin: max(0px,0vw)1% max(0px,0vw);
+        }
+    }
+    .Ratings-IntroUX{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: max(1px,1vw)0px max(1px,1vw);
+        .Star-RatingIntoUX{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(230, 181, 31,100%);
+            p{
+                font-size: 13px;
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .Star4-IntroUX{
+                transform: scale(0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: max(0px,-0.8vw) -7px max(0px,0vw);
+            }
+        }
+    .ratings-IntroUX{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: max(-13px,-0.5vw);
+        font-size: 13px;
+        p{
+            color: rgb(116, 175, 241,100%);
+            display: flex;
+            margin-left: max(6px,1.4vw);
+            font-family: 'Poppins', sans-serif;
+        }
+        .LineIntroUX{
+            margin: max(-21px,-0.9vw) 0px max(0px,0vw);
+            position: relative;
+            display: flex;
+            width: 81%;
+        }
+    }
+.NumberofStudents-IntroUX{
+    display: flex;
+    padding: max(0px,0vw)14px max(0px,0vw);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(245, 245, 251,100%);
+    @media (max-width:369px){
+        display: none;
+    }
+}    
+}
+
+}
+}

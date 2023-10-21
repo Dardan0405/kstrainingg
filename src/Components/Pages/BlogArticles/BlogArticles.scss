@@ -1,0 +1,41 @@
+.Article-Page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: max(44px,14vw);
+    padding-bottom:max(44px,14vw) ;
+    align-items: center;
+    .Block-ArticlesBlog{
+        display: flex;
+        flex-direction: column;
+        width: 76%;
+        align-items: center;
+        gap: max(5rem,1vw);
+        padding-bottom: max(35px,7vw);
+        p{
+            font-size:max(12px,1vw);
+        }
+    }
+@media(max-width: 510px){
+    padding-top: max(146px, 14vw);
+}
+.Date-BLogArticles{
+    font-size: max(16px,1vw);
+}
+.Titles-Blog{
+    display: flex;
+    padding-bottom: max(9px,2.5vw);
+    padding-top: max(1px,1vw);
+    h1{
+        font-size: max(18px,1.75vw);
+    }
+    @media(max-width: 840px){
+        width: 70%;
+    }
+}
+.Author-BlogArticles{
+    h1{
+        font-size: max(18px,1.35vw);
+    }
+}
+}

@@ -1,0 +1,20 @@
+.Title-Text-Container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 0px 4px 0px;
+  
+
+}
+.Reading-Text-ContainerPart{
+    display: flex;
+    position: relative;
+    width: 77%;
+    text-align: justify;
+    font-size: 14px;
+    padding: max(5px,2vw)1% max(3px,1vw);
+    font-family: 'Poppins';
+    margin-left: 12%;
+    line-height: 20px;
+  }

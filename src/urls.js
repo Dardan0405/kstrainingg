@@ -1,0 +1,1 @@
+export const coursesUrl = 'https://kosovatraining.com/applications1841.php'

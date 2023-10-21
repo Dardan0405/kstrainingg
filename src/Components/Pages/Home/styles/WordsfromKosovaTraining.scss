@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.WordsFromStudents{
+    margin: max(5%,32px)0;
+    padding: 2% 16%;
+    position:  relative;
+    h4{
+        font-size: 32px;
+        width: 33%;
+        margin-left: 38%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 1349px){
+            width: 36%;
+        }
+        @media(max-width: 1317px){
+            font-size: 25px;
+            width: 60%;
+            margin-left: 33%;
+        }
+        @media(max-width: 603px){
+            font-size: 23px;
+            width: 100%;
+            margin-left: 3%;
+        }
+    }
+    span{
+        font-weight: bold;
+    }
+}
+.Circle-PhotosStudents{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin-left: -8%;
+    margin-bottom: -1%;
+    flex-direction: column;
+    .Circle-Student1Words{
+        width: max(81px,2vw);
+        height: 80px;
+        margin-left: -2%;
+
+    }
+    .Circle-StudentWords1{
+        width: max(68px,2vw);
+        height: 68px;
+        position:absolute;
+        margin-left: -8%;
+        margin-top: 13%;
+        @media(max-width: 915px){
+            margin-left: -14%;
+            margin-top: 22%;
+        }
+
+    }
+    .Circle-StudentWords2{
+        width: 68px;
+        height: 68px;
+        margin-left: 5%;
+        position: absolute;
+        margin-top: 21%;
+        @media(max-width: 915px){
+            margin-left: -2%;
+            margin-top: 40%;
+        }
+    }
+    @media(max-width: 1198px){
+        margin-left: -2%;
+    }
+    @media(max-width: 500px){
+        display: none;
+    }
+}
+.Cards-WordfromStudent{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.Icon-WordsFromStudnet{
+    width: 96px;
+    height: 160px;
+    position: relative;
+    z-index: 4;
+    margin-bottom: -15%;
+    @media(max-width: 1349px){
+     height: 130px;
+    }
+    @media(max-width: 1198px){
+        height: 162px;
+    }
+@media(max-width: 500px){
+    width: 68px;
+    height: 86px;
+
+}
+}
+.Iconwrod-From{
+    height: 96px;
+    width: 97px;
+    @media(max-width: 500px){
+        height: 73px;
+        width: 74px;
+
+    }
+}
+.Containter-CardsWordFromStudent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(112,112,112,7%);
+    z-index: 3;
+    width: max(93%,2vw);
+    height: fit-content;
+    &:hover{
+        background-color: rgba(var(--main-rgb),80%);
+        color: #ffff;
+        transform: scaleY(1.1);
+    }
+
+    @media(max-width: 1349px){
+        width: max(69%,2vw);
+    }
+    @media(max-width: 1198px){
+        width: max(51%,2vw);
+    }
+    @media(max-width:938px){
+        width: max(61%,2vw);
+    }
+    @media(max-width: 580px){
+        width: max(57%,2vw);
+    }
+    @media(max-width: 500px){
+        width: max(100%,2vw);
+    }
+}
+.Top-ContainerWordfromStudent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10%;
+    @media(max-width:1040px){
+        margin-right: -22%;
+    }
+    @media(max-width:1000px){
+        margin-right: -43%;
+    }
+    @media(max-width: 500px){
+        display: none;
+    }
+
+}
+
+.Botom-ContainerWordFromStudent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: max(64%,2vw);
+    margin-top: -47%;
+    text-align: center;
+    @media(max-width: 1349px){
+        width: max(78%,2vw);
+        margin-top: -57%;
+    }
+    @media(max-width: 1198px){
+        width: max(76%,2vw);
+    }
+    @media(max-width:580px){
+        width: max(68%,2vw);
+        margin-top: -67%;
+    }
+    @media(max-width: 500px){
+        width: max(100%,2vw);
+        margin-top: 42%;
+        position: relative;
+        right: 5%;
+
+    }
+}
+.Qoute-BottomWordFromStudent{
+    margin-top: -8%;
+    margin-left: -10%;
+    @media(max-width: 500px){
+        margin-top: -34%;
+        width: 10%;
+        margin-left: 7%;
+
+    }
+}
+.Container-Bottom{
+    margin-left: 2%;
+    width: 100%;
+    margin-bottom: 5%;
+p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    width:max(111.2%);
+    @media(max-width: 500px){
+        font-size: 12px;
+        width: 100%;
+        margin-top: -23%;
+    }
+
+}
+@media(max-width: 500px){
+    width: 96%;
+    position: relative;
+    margin-bottom: -9%;
+}
+}
+
+.info-ForStudent{
+    margin-bottom: 4%;
+   p{
+        margin-top: 15%;
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 500px){
+            font-size: 13px;
+
+        }
+    }
+    @media(max-width: 500px){
+        margin-bottom: 5%;
+        margin-left: 14%; ;
+    }
+}
+.rec-arrow{
+   
+    position: relative;
+    
+}
+.styled-arrow{
+    .rec-arrow{
+    position: relative;
+    top: 80%;
+    &:hover{
+        background-color: var(--main-color);
+    }
+   
+}
+    .rec-arrow-right{
+        left: -36%;
+        
+        @media(max-width: 1125px){
+            left: 4%;
+        }
+    }
+    .rec-arrow-left{
+        left: 37%;
+        @media(max-width: 1125px){
+            left: -4%;
+        }
+    }
+}
+.styled-arrow{
+    .rec-arrow,
+    .rec-arrow-left,
+    .rec-arrow-right{
+      background-color: #827D7D;
+      color: #f8f4f4;
+      width: max(44px,2vw);
+      height: max(42px,2vw);
+      min-width: max(44px, 2vw) ;
+      min-height: max(42px, 2vw);
+      max-width: max(44px, 2vw) ;
+      max-height: max(42px, 2vw);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: max(19px,1vw);
+     
+  
+    }
+   
+    
+  }
+
+  
+ 
+
+.WordsFromStudents{
+.rec-pagination{
+    position:absolute;
+    bottom: -3% !important;
+    
+    
+    
+display: flex !important;
+@media(max-width: 1198px){
+    bottom: -19% !important;
+}
+    
+}
+.rec-dot{
+    display: flex  !important;
+
+    position: relative;
+    box-shadow: none ;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3b5bb;
+        
+    
+    /*border: 1px solid #1f6feb ; 
+    left: 0.5%;
+    border-radius: 50%;
+
+    top: 1%;
+    width: 33%;
+    z-index: 1;
+    height: 97%;*/
+    
+&::before{
+    width: 110%;
+    height: 110%;
+    top:-5%;
+    left: -5%;   
+    content: '';
+position: absolute;
+border-radius: 50%;
+border: 1px solid var(--maing-rgb);
+    }
+    }
+    .rec-dot_active {
+        background-color: var(--main-color);
+        
+    }
+}
+
+
+
+
+.Circle-PhotosStudents1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: -13%;
+    margin-top: -32%;
+
+    .Circle-StudentWords3{
+        position: relative;
+        height: 68px;
+        width: 68px;
+        margin-right: 3%;
+        top: -51px;
+        @media(max-width: 1198px){
+            position: absolute;
+            top: -61px;
+            right: 68%;
+            margin-right: 0%;
+        }
+
+    }
+    .Circle-StudentWords4{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 12%;
+        margin-top: 9%;
+        @media(max-width: 1198px){
+            position: relative;
+            margin-right: -34%;
+            margin-top: 133%;
+            margin-bottom: 0%;
+        }
+    }
+    @media(max-width: 1198px){
+        position: absolute;
+        right: 14%;
+        top: 56%;
+        margin-right: 0%;
+        margin-top: 0%;
+    }
+    @media(max-width:789px){
+        right: 7%;
+        top: 51%;
+    }
+    @media(max-width: 500px){
+        display: none;
+    }
+
+}
+.Containter-CardsWordFromStudent:hover .Qoute-BottomWordFromStudent{
+    filter: brightness(3.5);
+
+}
+.Containter-CardsWordFromStudent:hover .Quote-Top-WordFromS{
+    filter: brightness(5.5);
+} 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="506" height="310" viewBox="0 0 506 310">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8600" data-name="Rectangle 8600" width="506" height="310" rx="20" transform="translate(476 6363)" fill="#f7f3e5"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_68" data-name="Mask Group 68" transform="translate(-476 -6363)" clip-path="url(#clip-path)">
+    <g id="Icon_ionic-ios-quote" data-name="Icon ionic-ios-quote" transform="translate(559.856 6350.583)" opacity="0.2">
+      <path id="Path_23442" data-name="Path 23442" d="M12.867,69.914H25.693a9.5,9.5,0,0,0,9.472-9.472V35.185a9.5,9.5,0,0,0-9.472-9.472H18.057a1.588,1.588,0,0,1-1.579-1.7A24.069,24.069,0,0,1,22.654,9.394,1.58,1.58,0,0,0,21.49,6.75H13.617a1.533,1.533,0,0,0-1.243.612C10.914,9.256,6.75,15.57,6.75,25.891V63.777a5.981,5.981,0,0,0,6.117,6.137Z" transform="translate(27.979 -6.75)" fill="#4b3c99"/>
+      <path id="Path_23443" data-name="Path 23443" d="M25.242,69.914H38.068a9.5,9.5,0,0,0,9.472-9.472V35.185a9.5,9.5,0,0,0-9.472-9.472H30.432a1.588,1.588,0,0,1-1.579-1.7A24.069,24.069,0,0,1,35.029,9.394,1.58,1.58,0,0,0,33.865,6.75H25.992a1.533,1.533,0,0,0-1.243.612c-1.46,1.894-5.624,8.209-5.624,18.529V63.777a5.981,5.981,0,0,0,6.117,6.137Z" transform="translate(-19.125 -6.75)" fill="#4b3c99"/>
+    </g>
+  </g>
+</svg>

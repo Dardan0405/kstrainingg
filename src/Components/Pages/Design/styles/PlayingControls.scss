@@ -1,0 +1,74 @@
+.AllComponents-Video{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 94%;
+    margin-left: -95%;
+    .Middle-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: max(158px,5vw)0% max(1px,0vw);
+        button{
+               border: 0;
+               background-color: transparent;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               svg{
+                font-size: 60px;
+                color: #fff;
+               }
+               .DesciptionPlay-Video-Play{
+                font-size: 10px;
+                color: #fff;
+                width: 65%;
+               }
+
+        }
+    }
+    .Buttom-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        .Slider-Video{
+            display: flex;
+            flex-direction:row;
+            align-items: flex-end;
+          .MuiSlider-root{
+                left: 7%;
+                border-radius: 7px;
+                width: 100%;
+                color: rgb(242,51,51,100%);
+                height: 4px;
+                .css-14pt78w-MuiSlider-rail{
+                    width: 89%;
+                    background-color: #fff;
+                }
+                .css-1gv0vcd-MuiSlider-track{
+                    width: 9%;
+                }
+            
+            }
+
+
+        }
+        .Times{
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            margin-bottom: -3%;
+            .Time1{
+                display: flex;
+                position: relative;
+                margin-left: -1092%;
+            }
+            .Time2{
+                display: flex;
+                position: relative;
+                margin-left: 1077%;
+            }
+        }
+    }
+}

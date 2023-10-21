@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&display=swap');
+
+.Recomaded-Coruse-Container{
+    margin: max(13%,37px)0;
+    padding: 6% max(9%,1vw);
+    margin-top: -9%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+   h4{
+    @media (max-width: 1002px){
+        display: flex;
+        position: relative;
+        left: -8%;
+        font-size: 22px;
+    }
+   }
+    span{
+        font-weight: bold;
+    }
+}
+.Border-Recomanded{
+    width: max(40px,2vw);
+    height: max(40px,2vw);
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(112,112,112,40%);
+    &:hover {
+        background-color: var(--main-color);
+    }
+    @media(max-width: 1288px){
+        display: none;
+    }
+    
+   
+}
+.Play-Rec{
+    width: 20%;
+}
+.Border-left{
+    position: relative;
+    left: -4%;
+   
+}
+.Tabs-Containers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: max(7.1%,2vw)
+}
+.Border-Right{
+    position: relative;
+    right: -3.5%;
+}
+.Arrow-Recomanded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+   position: relative;
+   color: #fff;
+   border: 0;
+   margin-left: 12%;
+   background-color: rgb(112,112,112,0%);
+   margin-top: 14.5%;
+   cursor: pointer;
+}
+.react-tabs__tab-list{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2% 0%;
+    flex-wrap: wrap;
+    width: 100%;
+
+    
+}
+.react-tabs__tab{
+    padding: max(30px,1.5vw) max(17px,0.5vw);
+    margin: max(13px,0.5vw);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    @media(max-width: 1349px){
+        padding: max(30px,1.5vw) max(5px,0.5vw);
+    }
+    @media(max-width: 1180px){
+        padding: max(3px,0.5vw  ) max(9px,0.5vw );
+        margin: max(15px,0.5vw);
+    }
+  
+
+}
+.react-tabs__tab--selected{
+    
+    color: rgba(var(--main-rgb),100);
+}
+.react-tabs__tab-panel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    width:max( 29%,2vw);
+    margin:  0% 0.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    @media(max-width: 1000px){
+        width: max(38%,2vw);
+    }
+    @media(max-width: 726px){
+        width: max(85%,2vw);
+    }
+}
+.inner-cotentRec{
+    border: 1px solid rgba(71, 86, 119, 20%);
+    border-radius: 14px;
+    margin: 6% 4%;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    width: max(93%,2vw);
+    @media(max-width: 1349px){
+        width: max(101%,2vw);
+    }
+    @media(max-width: 321px){
+        width: max(110%,2vw);
+    }
+    
+
+
+}
+.inner-cotentRec .image-containerRec{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.inner-cotentRec:hover .image-containerRec{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+.Image-Rec{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+   
+    .image-containerRec{
+        width: 100%;
+       
+    }
+
+}
+
+.Pargraph-monthsRec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 2%;
+
+    
+    
+    p{
+        font-size: 13px;
+        margin-right: 34%;
+        color: #7d8597;
+        @media(max-width: 1349px){
+            font-size: 13px;
+            margin-right: 20%;
+        }
+        @media(max-width: 1000px){
+            margin-right: 16%;
+        }
+        @media(max-width: 726px){
+            margin-right: 14%;
+        }
+
+    }
+}
+.Circle-Recomanded{
+    border: 1px  rgb(0,181,145,17%);
+    border-radius: 15px;
+    width: 33%;
+    height: 27px;
+    background-color: rgb(0, 181, 145, 17%);
+    p{
+        font-size: 13px;
+        padding: 4%;
+        margin-left: 18%;
+        width:100%;
+        color: rgb(0, 181, 145, 100%);
+        @media(max-width: 1299px){
+            margin-left: 10%;
+        }
+
+    }
+}
+.Title-Recomanded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 3%;
+    width:93%;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1%;
+    
+
+    h4{
+        font-size: 15px;
+        color: #103b3e;
+        text-align: inherit;
+        font-weight: bold   ;
+        @media(max-width: 1349px){
+            font-size: 14px;
+        }
+        @media(max-width: 1298px){
+            font-size: 13px;
+        }
+        @media(max-width: 1143px){
+            font-size: 12px;
+            font-weight: bold;
+        }
+        @media(max-width: 1000px){
+            font-size: 13px;
+
+        }
+    }
+    @media(max-width: 1349px){
+        width: 100%;
+    }
+    @media(max-width: 1230px){
+        width: 101.3%;
+        left: 10%;
+        position: relative;
+    }
+    @media(max-width: 726px){
+        width: max(105.3%,2vw);
+        left: 5%;
+    }
+}
+
+.StsrRev-Students{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 3%;
+    margin-bottom: 3%;
+    p{
+         padding: 0% 2%;
+         font-size: 14px;
+         color:#707070;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         @media(max-width: 1159px){
+            font-size: 12px;
+         }
+    }
+    .Students-REC{
+        margin-left: 20%;
+        font-size: 12px;
+        color: #7d8597;
+        @media(max-width: 1349px){
+            margin-left: 4%;
+            font-size: 11px;
+
+        }
+       
+        @media (max-width: 762px){
+            padding: 2% 0%;
+        }
+        @media(max-width: 726px){
+            margin-left: 1%;
+        }
+    }
+}
+.Icon-Rec{
+    @media(max-width: 1159px){
+        width: max(29%,2vw);
+    }
+}
+.Enrollnow-Rec{
+    display: flex;
+    border: 1px solid rgba(var(--main-rgb),0.5);
+    width: max(30%,2vw);
+    text-align: center;
+    height: 36px;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    &:hover{
+         transform: translateX(15px);
+         -webkit-transform: translateX(15px);
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1% 19%;
+        color: var(--main-color);
+        font-size: 12px;
+        font-weight: bold;
+        @media(max-width: 1301px){
+            padding: 1% 11%;
+        }
+        @media(max-width: 1000px){
+            padding: 1% 7%;
+        }
+        @media(max-width: 726px){
+            padding: 1% 6%;
+        }
+    }
+    @media(max-width: 1349px){
+        width: max(35%,2vw);
+        
+    }
+    
+    
+}
+.rec-swipable{
+    align-items: stretch;
+  }
+  .rec-carousel-item-visible{
+    margin: 0;
+    display: flex;
+  }
+  .rec-dot{
+    display: none !important;
+  }
+  .styled-arrows{
+    .rec-arrow,
+    .rec-arrow-left,
+    .rec-arrow-right{
+      background-color: #827D7D;
+      color: #f8f4f4;
+      width: max(44px,2vw);
+      height: max(42px,2vw);
+      min-width: max(44px, 2vw) ;
+      min-height: max(42px, 2vw);
+      max-width: max(44px, 2vw) ;
+      max-height: max(42px, 2vw);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: max(19px,1vw);
+     
+  
+    }
+    
+  }
+
+
+
+
+
+.Recomanded-Play{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(var(--main-rgb),86%);
+    .Play-Rec{
+        margin-top: 26.5%;
+        margin-left: 38%;
+    }
+    p{
+        font-size: 14px;
+        margin-left: 32%;
+        margin-top: 6%;
+    }
+    
+}
+.inner-cotentRec:hover .Recomanded-Play{
+    display:block
+    }
+.Link-RecomandedL{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(var(--main-rgb),0.5);
+    color: var(--main-color);
+    margin: 2% 44%;
+    width: max(12%,2vw);
+    border-radius: 30px;
+    position: relative;
+    height: 40px;
+    a{
+        color: var(--main-color);
+    }
+    @media(max-width: 938px){
+        width: max(25%,2vw);
+        margin: 2% 37%;
+        font-size: 14px;
+    }
+    @media(max-width: 372px){
+        width: max(33%,2vw);
+    }
+}

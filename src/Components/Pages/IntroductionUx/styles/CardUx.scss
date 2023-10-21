@@ -1,0 +1,206 @@
+.CardIntroUx{
+    position: absolute;
+    margin: max(3%,0.5vw) 58% max(0%,0vw);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: rgb(112,112,112,20%);
+   
+        .ImageIntroUXCard{
+            background:linear-gradient(156deg, rgba(15, 13, 15, 0.48), rgba(15, 15, 13, 0.38)),url("../../../../assets/IntroUx/Start.webp");
+            position: relative;
+            width: 94%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: max(2px,0%) max(158px,29%);
+            border-radius: 16px;
+            .PlayIcon-IntroCard{
+                transform: scale(4.2);
+                color: #fff;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                padding: max(44px,8%) 0% max(8px,1%);
+                align-items: flex-start;
+                cursor: pointer;
+            }
+            .PlayDescirption-IntroUx{
+                color: #fff;
+             
+
+                font-size: 15px;
+                width: max-content;
+               padding: max(97px,1%) 0% max(0px,0%);
+                margin-left: 14%;
+                p{
+                    font-family: 'Poppins';
+                }
+                @media(max-width: 1336px){
+                    margin-left: 28%;
+                }
+            }
+            .Price-IntroUX{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                color: #fff;
+                font-weight: bold;
+                padding: max(22px,2%) 0% max(1px,1%);
+                font-family: 'Poppins';
+            }
+            .ButtonsIntroUx{
+                display: flex;
+                flex-direction: column;
+                width: 157%;
+                align-items: flex-start;
+                margin-left: -60%;
+                padding: max(15px,3%) 0% max(16px,1%);  
+                .ButtonIntroUx {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 160%;
+                    @media (max-width: 1336px){
+                        width: 139%;
+                    }
+                    button{
+                        color: red;
+                        width: inherit;
+                        font-family: 'Poppins';
+                        padding: max(19px,1%) 0% max(18px,1%);
+                        border-radius: 19px;
+                        margin: max(1px,0vw)0% max(5px,0%);
+                    }
+                }
+            
+            }
+          .days-IntroUx{
+                position: relative;
+                display: flex;
+                width: max(100%,14vw);
+                font-size: 11px;
+                font-family: 'Poppins';
+                margin-left: -41%;
+                justify-content: center;
+                padding: max(-1px,1%) 0% max(10px,1%);
+                align-items: center;
+                color: #fff;
+                @media(max-width: 1336px){
+                    font-size: 11px;
+                    margin-left: -6%;
+                }
+            }
+            
+        @media (max-width:1336px){
+            padding: max(2px,0%) max(130px,29%);
+        }
+        
+        }
+        .Content-BottomIntroUX{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: fit-content;
+            font-family: 'Poppins';
+            align-items: center;
+            .Title-CourseInclude{
+                font-size: 20px;
+                color: #0f0d0d;
+                font-weight: 900;
+                padding: max(19px,2%) 0% max(5px,1%);
+                margin-left: -13%;
+            }
+        }
+        .IncludesCourse-IntroUX{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .LineIntro{
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                width: 51%;
+                .Icons1-Includess{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: flex-start;
+                   margin:  max(14px, 0.6vw) 0% max(9px, 0.3vw);
+                   .Icons-Includes{
+                    transform: scale(0.95);
+                  }
+                  .Title-Includes{
+                    display: flex;
+                    font-size: 13px;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 8%;
+                  }
+                }
+                .Icons1-Includes{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    margin: max(20px,0.6vw) 0% max(0px,0vw);
+                      .Icons-Includes{
+                        transform: scale(0.95);
+                      }
+                      .Title-Includes{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 3%;
+                        font-size: 13px;
+                        .ArrowUp-downIntroUx{
+                            transform: scale(1.9);
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            margin-left: 7%;
+                        }
+                      }
+                }
+            }
+    }
+    @media(max-width: 1349px){
+    
+        margin: max(3%,0.5vw) 60% max(0%,0vw);
+
+    }
+    @media(max-width: 1336px){
+        margin: max(0%,0vw) 0% max(0%,0vw);
+        padding: max(383px,26%) 0% max(1px,1%);
+
+    }
+    @media(max-width: 930px){
+        padding: max(435px,26%) 0% max(1px,1%);
+        
+    }
+    @media (max-width:687px){
+        padding: max(485px,26%) 0% max(1px,1%);
+
+    }
+    @media(max-width: 645px){
+        display: none;
+    }
+}
+    .free{
+        background-color: var(--main-color);
+        border: transparent;
+        color: #fff;
+    }
+    .card{
+        background-color: #fff;
+        color: #0f0d0d;
+        border: transparent;
+    }
+        
+    

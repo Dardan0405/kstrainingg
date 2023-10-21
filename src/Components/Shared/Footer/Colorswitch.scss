@@ -1,0 +1,78 @@
+.color-SwitchContainer{
+    display: flex;
+    flex-direction: row;
+    width: 71%;
+    justify-content: space-between;
+}
+.color{
+    width: max(23.5px, 1vw);
+        height: max(23.5px, 1vw);
+        border-radius: 50% ;
+        cursor: pointer;
+        position: relative;
+}
+.ccircle1{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+}
+.active{
+    padding: 3.3%;
+}
+.ccircle2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 50%;
+    
+    
+    
+}
+
+.color1 .ccircle2{
+    border: 1px solid #6e53ff;
+}
+.color2 .ccircle2{
+    border: 1px solid #ed2f3c;
+}
+.color3 .ccircle2{
+    border: 1px solid #1c31ee;
+}
+.color4 .ccircle2{
+    border: 1px solid #e5720d;
+}
+.color1 .ccircle1{ background: #6e53ff; }
+.color2 .ccircle1{ background: #ed2f3c; }
+.color3 .ccircle1{ background: #1c31ee; }
+.color4 .ccircle1{ background: #e5720d; }
+.color1 .ccircle2{
+    display: block;
+}
+
+.theme-red .color-SwitchContainer{ 
+    .color1 .ccircle2{
+        display: none;
+    }
+.color2 .ccircle2{
+    display: block;
+}
+}
+ .theme-blue .color-SwitchContainer{
+    .color1 .ccircle2{
+        display: none;
+    }
+    .color3 .ccircle2{
+        display: block;
+    }
+    }
+
+    .theme-orange .color-SwitchContainer{
+        .color1 .ccircle2{
+            display: none;
+        }
+        .color4 .ccircle2{
+            display: block;
+        }
+    }

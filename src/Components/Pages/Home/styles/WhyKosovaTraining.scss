@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.Homepage .Logos-WhyKs{
+    position: relative;
+    padding-top: max(111px,2vw);
+    
+    width: max(57%,2vw);
+    height: auto;
+    align-items: 0;
+    @media(max-width: 918px){
+        margin-bottom: 13%;
+    }
+    @media(max-width: 850px){
+        margin-bottom: 62%;
+    }
+    @media (max-width: 713px){
+        margin-bottom: 12%;
+    }
+}
+
+.Logos-WhyKs .Logo-Container-WhyKosovaTraining{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    @media(max-width: 1000px){
+        margin-bottom: 12%;
+    }
+    @media(max-width: 773px){
+        margin-bottom: 32%;
+    }
+    @media(max-width: 500px){
+        margin-bottom: 27%;
+
+    }
+}
+.Icon-Olimpic {
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo1.svg');
+    width: 9%;
+    margin-bottom: 3%;
+    margin-right: 55%;
+    @media(max-width: 1000px){
+        width: 10%;
+    }
+    @media(max-width: 773px){
+        width: 12%;
+    }
+    @media(max-width: 500px){
+        width: 16%;
+
+    }
+    @media(max-width: 434px){
+        width: 20%;
+    }
+}
+.Icon-Half{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo2.svg');
+    width: 9%;
+    margin-right: 57%;
+    margin-top: 25%;
+    @media(max-width: 1000px){
+        width: 10%;
+    }
+    @media(max-width: 773px){
+        display: none;
+    }
+}
+.Icon-Art{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo3.svg');
+    margin-right: 17%;
+    width: 9%;
+    margin-top: -22%;
+    margin-left: -10%;
+    margin-bottom: -4%;
+    @media(max-width: 1000px){
+        width: 10%;
+    }
+    @media(max-width: 773px){
+        display: none;
+    }
+}
+.Icon-HalfCircle{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo4.svg');
+width: 9%;
+margin-top: -16%;
+margin-left: 18%;
+margin-bottom: -2%;
+@media(max-width: 1000px){
+    width: 10%;
+}
+@media(max-width: 773px){
+    width: 12%;
+    display: flex;
+    position: absolute;
+    margin-top: 31%;
+
+}
+@media(max-width: 605px){
+    margin-top: 45%;
+    width: 14%;
+}
+@media(max-width:434px){
+    margin-top: 76%;
+    width: 18%;
+
+}
+}
+.Icon-Book{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo5.svg');
+    width: 9%;
+    margin-top: 18%;
+
+    margin-left: 15%;
+    @media(max-width: 1000px){
+        width: 10%;
+    }
+    @media(max-width: 773px){
+        display: none;
+    }
+}
+.Icon-Brush{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo6.svg');
+    width: 9%;
+    margin-top: -29%;
+    margin-left: 54%;
+    @media(max-width: 1000px){
+        width: 10%;
+    }
+    @media(max-width: 773px){
+        margin-top: 43%;
+        position: absolute;
+        margin-left: 55%;
+        width: 14%;
+    }
+    @media(max-width: 605px){
+        margin-top: 49%;
+        margin-left: 48%;
+
+    }
+    @media(max-width: 500px){
+        margin-top: 66%;
+        margin-left: 61%;
+        width: 17%;
+    }
+    @media(max-width: 434px){
+        margin-top: 118%;
+        width: 19%;
+        
+    }
+}
+.Icon-2pieceIcon{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo7.svg');
+    width: 9%;
+    margin-top: -19%;
+    margin-left: 74%;
+    @media(max-width: 1000px){
+        display: none;
+    }
+}
+.Icon-Calendar{
+    content: url('../../../../assets/Home/WhyKosovaTraining/Logo8.svg');
+    width: 9%;
+    margin-top: 17%;
+    margin-left: 76%;
+    @media(max-width: 1000px){
+        display: none;
+    }
+}
+.Info-WhyKS{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.Info-contaier   {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    margin-top: -40%;
+    margin-left: 26%;
+
+    span{
+         
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    h1{
+         
+        font-family: 'Poppins', sans-serif;
+        margin-left: -7%;
+        margin-top: -2%;
+        margin-bottom: 9%;
+        @media(max-width: 1349px){
+            width: 80%;
+        }
+        @media(max-width: 589px){
+            width: 100%;
+            font-size: 19px;
+        }
+    }
+    p{
+        
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        width: max(65%,2vw);
+        margin-left: -9%;
+        margin-top: -3.5%;
+        @media(max-width:1349px){
+            font-size: 14px;
+            width: max(67.6%,2vw);
+        }
+        @media(max-width: 589px){
+            width: max(100.6%, 2vw);
+            font-size: 12px;
+        }
+       
+    }
+    @media(max-width: 1349px){
+        margin-top: -42%;
+    }
+}
+.About-UsKosovaTraining{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 3%;
+    margin-left: -9%;
+    &:hover{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+  
+    .About-Circle{
+        font-size: 16px;
+        border-radius: 29px;
+        background-color: var(--main-color);
+        padding: 12px 45px;
+        color: #fff;
+
+    }
+}
+
+.Boy{
+    position: relative;
+    width: max(29%, 2vw);
+    float: right;
+    margin-right: -14%;
+    margin-top: -42%;
+    @media(max-width: 1349px){
+        width: max(34%,2vw);
+        margin-top: -33%;
+    }
+    @media(max-width: 1147px){
+        margin-top: -35%;
+    }
+    @media(max-width : 1103px){
+        margin-top: -37%;
+        width: max(40%, 2vw);
+        margin-right: -21%;
+    }
+    @media(max-width: 1000px){
+        margin-right: -19%;
+    }
+    @media(max-width: 850px){
+        display: none;
+    }
+}
+.Boy-School{
+    content: url('../../../../assets/Home/WhyKosovaTraining/student.webp');
+    width: max(100%,2vw);
+    @media(max-width:1349px){
+        margin-top: -31%;
+        display: flex;
+        position: relative;
+    left: 11%;
+    width: max(83%,2vw);
+    }
+    @media(max-width: 1103px){
+        width: max(71%,2vw);
+        margin-top: -32%;
+        left: 8%;
+    }
+    
+    
+    @media(max-width: 1000px)
+    {
+        width: max(76%,2vw);
+        margin-top: -33%;
+    
+    }
+    @media(max-width: 918px){
+        width: max(77%,2vw);
+        margin-top: -37%;
+    }
+    @media(max-width: 890px){
+        width: max(80%,2vw);
+        margin-top: -44%;
+        left: 5%;
+    }
+    @media(max-width: 795px){
+        margin-top: -39%;
+        left: 2%;
+        width: max(76%,2vw);
+    }
+    @media(max-width: 773px){
+        margin-top: -68%;
+        width: max(90%,2vw);
+        left:-11% ;
+    }
+    @media(max-width: 726px){
+        margin-top: -69%;
+        width: max(90%,2vw);
+
+    }
+    @media(max-width: 642px){
+        margin-top: -67%;
+        width: max(90%,2vw);
+    }
+    @media(max-width: 565px){
+        margin-top: -128%;
+    }
+    @media(max-width: 490px){
+        margin-top: -187%;
+        width: max(100%,32vw);
+    }
+    @media(max-width: 450px){
+        margin-top: -215%;
+
+    }
+    @media(max-width: 434px){
+        margin-top: -268%;
+    }
+    @media(max-width: 380px){
+        margin-top: -297%;
+        width: max(100%,40vw);
+    }
+
+}
+.cards-Certifications{
+    float: right;
+    margin-right: -66%;
+    margin-top: -29%;
+    width: 42%;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #e5e5e5;
+        transform: translateX(20px);
+        -webkit-transform: translateX(20px);
+        
+    }
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+  
+    
+    .Containers-CardsCertificaton {
+        align-items: center;
+        display: flex;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        @media(max-width: 1349px){
+            margin-left: 8%;
+            
+        }
+        @media(max-width: 1170px){
+            margin-left: 5%;
+        }
+    }
+    @media(max-width:1349px){
+        margin-right: -68%;
+        margin-top: -33%;
+    }
+    @media(max-width: 1170px){
+        width: 59%;
+        margin-right:-83% ;
+
+    }
+    @media(max-width:1130px){
+        margin-right: -85%;
+    }
+    @media(max-width:1103px){
+        margin-top: -40%;
+    }
+    @media(max-width:1000px){
+        margin-top: -44%;
+    }
+    @media(max-width: 918px){
+        
+        
+        margin-top: -50%;
+        margin-right: -90%;
+        
+    }
+    @media(max-width: 850px){
+        margin-top: 15%;
+        margin-right: 32%;
+    }
+    @media(max-width: 713px)
+    {
+        display: none;
+    }
+    
+}
+.Logo-CardsCertification{
+    display: flex;
+    position: relative;
+    margin-left: 2%;
+    .Square-Certification{
+        box-shadow: rgba(255, 208, 133, 100%) 0px 25px 50px -12px;
+        background-color: #FFD085;
+        height: 52px;
+        width: 53px;
+        border-radius: 19px;
+        margin-top: -44%;
+        .Certification{
+            height: 27px;
+            width: 42px;
+            margin-top: 23%;
+            margin-left: 7%;
+        }
+   }
+  
+}
+.Info-Certificates{
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    h4{
+        font-weight: bold;
+        font-size: 24px;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 1170px){
+            font-size: 20px;
+        }
+
+    }
+    p{
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif;
+        color: #656464;
+        @media(max-width:1349px){
+            font-size: 14px;
+        }
+    }
+@media(max-width: 1170px){
+    margin-left: 1%;
+}
+@media(max-width: 918px){
+    margin-left: 2%;
+}
+}
+.cards-Expert{
+    float: right;
+    margin-right: -71%;
+    margin-top: -12%;
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #e5e5e5;
+        transform: translateX(20px);
+        -webkit-transform: translateX(20px);
+    }
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+  
+    .Containers-CardsExpert{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+    }
+    @media(max-width:1349px){
+        margin-right: -73%;
+        margin-top: -16%;
+    }
+    @media(max-width: 1170px){
+        width: 59%;
+        margin-right:  -90%;
+    }
+    @media(max-width:1103px){
+        margin-top: -21%;
+    }
+   @media(max-width:1000px){
+    margin-top: -25%;
+    margin-right: -92%;
+   } 
+    
+    @media(max-width: 918px){
+        margin-top: -30%;
+        margin-right: -90%;
+    }
+    @media(max-width: 850px){
+        margin-top: 9%;
+        margin-right: 30%;
+    }
+    @media(max-width: 713px)
+    {
+        display: none;
+    }
+    
+}
+.Logo-CardsExpert{
+    display: flex;
+    position: relative;
+    margin-left: 2%;
+    .Square-Expert{
+        width: 53px;
+        box-shadow: rgba(92, 161, 254, 100%) 0px 25px 50px -12px;
+        background-color: #5CA1FE;
+        height: 52px;
+        border-radius: 19px;
+        margin-top: -21%;
+        .Expert{
+            height: 25px;
+            width: 40px;
+            margin-top: 23%;
+            margin-left: 9%;
+        }
+    }
+    
+}
+.Info-Export{
+    justify-content: center;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    h4{
+        font-weight: bold;
+        font-size: 24px;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 1170px){
+            font-size: 20px;
+        }
+
+    }
+    p{
+        font-size: 16px ;
+        margin-top: 3%;
+        font-family: 'Poppins', sans-serif;
+        color: #656464;
+        @media(max-width:1349px){
+            font-size: 14px;
+        }
+        @media(max-width:1170px){
+            margin-left: 2%;
+        }
+    }
+}
+.cards-Flexible{
+    align-items: center;
+    cursor: pointer;
+    float: right;
+    margin-top: 4%;
+    margin-right: -68%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+    &:hover{
+        border: 1px solid #e5e5e5;
+        transform: translateX(20px);
+        -webkit-transform: translateX(20px);
+    }
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    
+    .Containers-Flexible{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+    @media(max-width:1349px){
+        margin-top: 1%;
+        margin-right: -71%;
+    }
+    @media(max-width:1170px){
+        width: 59%;
+        margin-right: -90%;
+    }
+    @media(max-width:1130px){
+        margin-right: -86%;
+    }
+    @media(max-width:1103px){
+        margin-top: -3%;
+    }
+    @media(max-width: 918px){
+        margin-top: -5%;
+        margin-right: -90%;
+
+    }
+    @media(max-width: 850px){
+        margin-top: 41%;
+        margin-right: -60%;
+    }
+    @media(max-width: 713px)
+    {
+        display: none;
+    }
+    
+}
+.Logo-Flexible{
+    position: relative;
+    display: flex;
+    margin-left: 2%;
+    .Square-Flexible{
+        box-shadow: rgba(255,133, 138, 100%) 0px 25px 50px -12px;
+        background-color: #FF858A;
+        height: 52px;
+        width: 53px;
+        border-radius: 19px;
+        margin-top: -31%;
+    }
+    .Flexible{
+        height: 27px;
+        width: 37px;
+        margin-top: 24%;
+        margin-left: 14%;
+    }
+}
+.Info-Flexible{
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 8%;
+    flex-direction: column;
+    position: relative;
+    h4{
+        font-weight: bold;
+        font-size: 24px;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 1170px){
+            font-size: 20px;
+        }
+    }
+    p{
+        line-height: 21px;
+        font-size: 16px;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif;
+        color: #656464;
+        @media(max-width:1349px){
+            font-size: 14px;
+        }
+        @media(max-width:1170px){
+            margin-left: 2%;
+        }
+    }
+}

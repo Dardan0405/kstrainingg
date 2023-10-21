@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="15" viewBox="0 0 87 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="7" height="15" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_36" data-name="Group 36" transform="translate(-414 -4910)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M7.5,0,9.75,5.036,15,5.729,11.141,9.536,12.135,15,7.5,12.317,2.865,15l.995-5.464L0,5.729l5.25-.694Z" transform="translate(414 4910)" fill="#ffc000"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,9.75,5.036,15,5.729,11.141,9.536,12.135,15,7.5,12.317,2.865,15l.995-5.464L0,5.729l5.25-.694Z" transform="translate(432 4910)" fill="#ffc000"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M7.5,0,9.75,5.036,15,5.729,11.141,9.536,12.135,15,7.5,12.317,2.865,15l.995-5.464L0,5.729l5.25-.694Z" transform="translate(450 4910)" fill="#ffc000"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M7.5,0,9.75,5.036,15,5.729,11.141,9.536,12.135,15,7.5,12.317,2.865,15l.995-5.464L0,5.729l5.25-.694Z" transform="translate(468 4910)" fill="#ffc000"/>
+    <path id="Polygon_5" data-name="Polygon 5" d="M7.5,0,9.75,5.036,15,5.729,11.141,9.536,12.135,15,7.5,12.317,2.865,15l.995-5.464L0,5.729l5.25-.694Z" transform="translate(486 4910)" fill="#76787b"/>
+    <g id="Scroll_Group_2" data-name="Scroll Group 2" transform="translate(486 4910)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <path id="Polygon_7" data-name="Polygon 7" d="M7.5,0,9.75,5.036,15,5.729,11.141,9.536,12.135,15,7.5,12.317,2.865,15l.995-5.464L0,5.729l5.25-.694Z" fill="#ffc000"/>
+    </g>
+  </g>
+</svg>

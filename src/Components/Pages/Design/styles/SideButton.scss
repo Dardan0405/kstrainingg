@@ -1,0 +1,149 @@
+.Button-Side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    .Desciption-Button{
+        position: relative;
+         width: max(80%,2vw);
+         height: 70vh;
+         margin-top: -10%;
+         margin-left: 6%;
+        .Module1{
+            border: 0px;
+            width: max(24%,2vw);
+            height: 70px;
+            border: 1px solid rgb(213, 213,213,100%);
+            @media(max-width: 1000px){
+                width: max(41%,2vw );
+            }
+            @media(max-width: 800px){
+                width: max(50%,2vw);
+            }
+            @media(max-width: 570px){
+                width: max(80%,2vw);
+            }
+            h4{
+                width: 90%;
+                display: flex;
+                justify-content: flex-start;
+                position: relative;
+                font-size: 15px;
+                margin-top: 13%;
+                left: 9%;
+                font-weight: bold;
+
+
+            }
+            .Icon-Side1{
+               width: 100%;
+               position: relative;
+               font-size: 20px;
+               margin-top: -6%;
+               left: 37%;
+        
+            }
+            
+
+            
+
+        }
+        .Inner-button{
+            display: flex;
+            flex-direction: column;
+            width: max(24%,2vw);
+            align-items: flex-start;
+             line-height: 45px;
+             background-color: rgb(245, 245, 251,100%);
+             @media(max-width:1000px){
+                width: max(41%,2vw);
+             }
+             @media(max-width: 800px){
+            width: max(50%,2vw);
+             }
+             @media(max-width: 570px){
+                width: max(80%,2vw );
+             }
+             
+            .Link-Inner1{
+                display: flex;
+                position: relative;
+                width: 100%;
+                justify-content: flex-start;
+                left: 8%;
+                border: 0;
+                background-color: transparent;
+                line-height: 33px;
+                &:hover{
+                    color: var(--main-color);
+                }
+                @media(max-width: 1210px){
+                    left: 5%;
+                }
+                @media(max-width: 340px){
+                    left: 1%;
+                }
+                
+                .Video-WelcomeIcons{
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    font-size: 18px;
+                    margin-top: 2%;
+                }
+                .Container-Side{
+                    display: flex;
+                    flex-direction: row;
+                    width: max(67%,2vw );
+                    font-size: 14px;
+                    justify-content: start;
+                    font-family:"Poppins";
+                    @media (max-width: 1405px){
+                        width: max(82%,2vw);
+                    }
+                    @media(max-width:1210px){
+                        font-size: 13px;
+                    }
+                    @media(max-width: 340px){
+                        font-size: 12px;
+                        width: max(88%,2vw);
+                    }
+                    span{
+                        font-weight: bold;
+                        position: relative;
+                        left: 3.4%;
+                    }
+                    p{
+                        position: relative;
+                        left:8%;
+                        font-size: 13px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.module{
+border-radius: 11px 11px 0px 0px;
+}
+.module8{
+    border-radius: 0px 0px 11px 11px;
+}
+
+.Video-sidebar{
+    width: max(100%,60vw);
+    position: absolute;
+    display: flex;
+    margin-left: max(110% );
+    margin-top: max(-12%);
+    
+}
+.Video-sidebar1{
+    width: max(89%, 40vw);
+    position: absolute;
+    display: flex;
+    margin-left: 26%;
+    margin-top: -5%;
+}

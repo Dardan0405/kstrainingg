@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&display=swap');
+.Design-page  .Footer{
+    margin-top: -18%;
+
+}
+.Login-page .Footer{
+    margin-top: 4%;
+    @media(max-width: 1233px){
+        margin-top: 3%;
+    }
+}
+.Footer{
+    background: url('../../../assets/Shared/Footer/background.webp');
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+    background-attachment: inherit;
+    position:absolute;
+     width: 100%;
+   
+    margin-top: -1.0%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: max(21px,4%)6%  max(23px,1vw);
+    @media(max-width: 423px){
+        margin-top: 0%;
+    }
+    .Newsletter{
+        display: flex;
+        flex-direction: column;
+        .Title-NewsLetter{
+            h1{
+                font-size: max(16px,1vw);
+            }
+        }
+        form{
+            
+            width: max(21%, 20vw);
+            display: flex;
+            justify-content: space-around;
+            border: none;
+            .Icon-Newsletter{
+                display: flex;
+                transform: scale(1);
+                align-items: center;
+            }
+            button{
+                background: transparent;
+                color: #fff;
+                padding: max(6px,0.1vw);
+                border-radius: 6px;
+            }
+          
+            input{
+                background-color: none;
+                color: #000;
+                font-size: max(16px,1vw);
+                width: 100%;
+                border: 1px solid #fff;
+                padding: max(1px,0.1vw)1px max(1.5px,0.1vw);
+                border-radius: 41px;
+            }
+          
+          .Message-Newsletter{
+            display: flex;
+            position: absolute;
+            margin-top: max(1.5%,2.6vw);
+            color: rgb(255,0 , 0);
+            @media(max-width: 1160px){
+                margin-top: max(1.8%, 3.5vw);
+            }
+            @media(max-width: 785px){
+                margin-top: max(2%,4.5vw);
+            }
+            @media(max-width: 577px){
+                font-size: max(14px,1.5vw);
+                margin-top: max(7%,5vw);
+            }
+            @media(max-width: 430px){
+                margin-top: max(7%,7.5vw);
+            }
+            @media(max-width: 350px){
+                margin-top: max(30%, 25.5vw);
+                left: 29%;
+            }
+
+          }
+          @media(max-width: 1553px){
+            width: max(29%, 24vw);
+          }
+          @media(max-width: 1230px){
+            width: max(29%, 28vw);
+          }
+          @media(max-width: 1113px){
+            width: max(34%, 32vw);
+          }
+          @media(max-width: 972px){
+            width: max(39%, 38vw);
+          }
+          @media(max-width: 818px){
+            width: max(43%, 47vw);
+          }
+          @media(max-width: 662px){
+            width: max(63%, 47vw);
+          }
+          @media(max-width: 544px){
+            width: max(63%, 68vw);
+          }
+          @media(max-width: 453px){
+            width: max(94%, 68vw);
+          }
+          @media(max-width: 377px){
+            width: max(94%, 88vw);
+          }
+          @media(max-width: 350px){
+            flex-direction: column;
+          }
+          
+        }
+    }
+}
+.Main-rowFooter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.first-ColumnFooter{
+    width: 19%;
+    position: relative;
+    left: 3%;
+.KosovaTraining-LogoFooter{
+    content: url(../../../assets/Shared/Footer/Logo.svg);
+    height: max(44px,2vw);
+}
+h5{
+    font-size: 16px;
+    margin: max(15px,2vw);
+    margin-left: 1%;
+    font-family: 'Poppins', sans-serif;
+    @media(max-width: 1322px){
+        width: 100%;
+    }
+}
+@media(max-width: 1021px){
+    width: 52%;
+}
+}
+.Contact{
+    margin: max(15%,2vw)0%;
+    h4{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+.Phone-Footer{
+    display: flex;
+    flex-direction: row;
+    margin: max(8%,1vw)0%;
+    align-items: center;
+    .Phone-IconFooter{
+        height: max(17px,1vw);
+    }
+    p{
+        margin: max(0%)4%;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+.Mail-Footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: max(8%,1vw)0%;
+    .Mail-IconFooter{
+        height: max(17px,1vw);
+    }
+    p{
+        margin: max(0%)4%;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+.All-LinksFooter{
+    width: 67%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: -3.5%;
+    
+    @media(max-width: 1020px){
+        width: 95%;
+        margin-top: 5%;
+    }
+}
+.Footer-LinksList{
+    width: fit-content;
+    max-width: 70%;
+    margin-left: -1%;
+    h4{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    @media(max-width: 1020px){
+        max-width: 33%;
+    }
+    @media(max-width: 639px){
+        max-width: 58%;
+        margin-left: 0%;
+    }
+}
+.Links-Footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    a{
+         color:rgba(255, 255,255, 64%);
+         font-size: 16px;
+         margin: max(4.9%,0.5vw)0%;
+         font-family: 'Poppins', sans-serif;
+         @media(max-width: 1020px){
+            font-size: 13px;
+            margin: max(6px,1.5vw)0%;
+         }
+    }
+
+}
+.Bottom-rowFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: max(-2%, 4vw)0%;
+    border-top: 1px solid;
+
+    border-color: rgba(255,255,255,30%);
+    p{
+        font-size: 13px;
+        position:absolute;
+        bottom: 8%;
+        color: rgba(255, 255,255, 70%);
+
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 1065px){
+            bottom: 6%;
+        }
+        @media(max-width: 1025px){
+         bottom: 3%;
+        }
+        @media(max-width: 620px){
+            font-size: 12px;
+        }
+        @media(max-width: 559px){
+            bottom: 2%;
+        }
+    }
+
+}
+.Icons-Foooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 15%;
+
+position: absolute;
+bottom: 8%;
+left: 65%;
+@media(max-width: 1065px){
+    left: 60%;
+    bottom: 6%;
+}
+@media(max-width: 1025px){
+    left: 52%;
+    bottom: 3%;
+    
+}
+@media(max-width: 559px){
+    left: 16%;
+    bottom: 0%;
+    width: 19%;
+}
+}
+.Icons-SocialMedia{
+    align-items: center;
+    cursor: pointer;
+    width: 9%;
+    display: flex;
+    height: 17px;
+    align-items: baseline;
+    .Icons{
+        transform: scale(1.15);
+        color: #fff;
+    }
+    @media(max-width: 1025px){
+        width: 14%;
+    }
+    @media(max-width: 559px){
+        width: 23%;
+    }
+}
+.Reserved-Footer{
+    
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 83%;
+    width: 15%;
+    bottom: 8%;
+    
+
+    p{
+        font-size: 13px;
+        position:absolute;
+        bottom: 8%;
+        font-family:'Poppins', sans-serif ;
+        color: rgba(255, 255,255, 70%);
+    }
+    @media(max-width: 1065px){
+        width: 16%;
+        bottom: 6%;
+    }
+    @media(max-width: 1025px){
+        width: 30%;
+        left: 70%;
+        bottom: 3%;
+    }
+    @media(max-width: 559px){
+        width: 53%;
+        left: 46%;
+        bottom: 0%;
+    }
+}

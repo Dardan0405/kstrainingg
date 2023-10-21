@@ -1,0 +1,194 @@
+.Title-Design{
+    position: relative;
+     margin: max(1px,13%)6%;
+    display: flex;
+    flex-direction: row;
+    width: max(70%,2vw);
+    justify-content: flex-start;
+    margin-left: 7.5%;
+    @media(max-width : 475px){
+        margin: max(1px,25%)6%;
+        width: max(90%,2vw);
+        margin-left: 2.5%;
+    }
+    .Link1-Title{
+        font-size: 17px;
+        color: rgb(55, 49, 49,65%);
+        @media(max-width: 870px){
+            font-size: 15px;
+            position: relative;
+            left:3%;
+        }
+        @media(max-width:475px){
+            left: 1%;
+        }
+        .Arrow-Links{
+            font-size: 22px;
+            position: absolute;
+            top: 1%;
+            left: 4.7%;
+            color: rgb(55, 49, 49,65%);
+            
+        }
+        .Arrow1{
+            left: 4.7%;
+            @media(max-width: 1422px){
+                left: 5.1%;
+            }
+                @media(max-width: 1385px){
+                    left: 7.5%;
+                }
+                @media(max-width: 1320px){
+                    left: 5.8%;
+                }
+                @media(max-width: 1235px){
+                    left: 6.2%;
+                }
+                @media(max-width: 1178px){
+                    left: 6.5%;
+                }
+                @media(max-width: 1088px){
+                    left: 6.9%;
+                }
+                @media(max-width: 1050px){
+                    left: 7.3%;
+                }
+                @media(max-width: 960px){
+                    left: 7.9%;
+                }
+                @media(max-width: 907px){
+                    left: 8.3%;
+                }
+                @media(max-width: 870px){
+                    left: 97.9%;
+                    font-size: 20px;
+                }
+                @media(max-width: 475px){
+                    left: 104.9%;
+                }
+
+            
+
+        }
+        
+    }
+.Link2-Title{
+    margin-left: 2%;
+    font-size: 17px;
+    color: rgb(55, 49, 49,65%);
+    @media(max-width: 870px){
+        margin-left: 9%;
+        font-size: 15px;
+    }
+    .Arrow2{
+        font-size: 22px;
+        position: absolute;
+        top: 1%;
+        left: 11.7%;
+        color: rgb(55, 49, 49,65%);
+        @media(max-width: 1422px){
+            left: 12.1%;
+            }
+            @media(max-width:1385px){
+                left: 15.5%;
+            }
+            @media(max-width: 1320px){
+                left: 12.8%;
+            }
+            @media (max-width: 1270px){
+                left: 13.2%;
+            }
+            @media(max-width: 1235px){
+                left: 13.5%;
+            }
+            @media(max-width: 1205px){
+                left: 13.8%;
+            }
+        @media(max-width: 1178px){
+            left: 14.2%;
+        }
+        @media(max-width: 1150px){
+            left: 14.9%;
+        }
+        @media(max-width: 1088px){
+            left: 15.3%;
+        }
+        @media(max-width: 1050px){
+            left: 16.2%;
+        }
+        @media(max-width: 960px){
+            left: 17.1%;
+        }
+        @media(max-width: 907px){
+         left: 17.7%;
+        }
+        @media(max-width: 870px){
+            left: 26%;
+            font-size: 20px;
+        }
+        @media(max-width: 705px){
+            left: 29%;
+        }
+        @media(max-width: 607px){
+            left: 32%;
+        }
+        @media(max-width: 536px){
+            left: 35%;
+        }
+        @media(max-width: 480px){
+            left: 43%;
+
+        }
+        @media(max-width: 475px){
+            left: 32%;
+        }
+        @media(max-width: 425px){
+            left: 34%;
+        }
+        @media(max-width: 380px){
+            left: 43%;
+        }
+    }
+}
+.Link3-Title{
+    left: 2%;
+    position: relative;
+    font-size: 17px;
+    color: rgb(55, 49, 49,65%);
+    @media(max-width: 870px){
+        left: 6%;
+    font-size: 15px;
+
+    }
+    .Arrow3{
+        position: absolute;
+        font-size: 22px;
+        left: 80%;
+        top: 1%;
+        color: rgb(55, 49, 49,65%);
+        @media (max-width: 870px)
+        {
+            font-size: 20px;
+            left: 82%;
+            
+        }
+
+    }
+}
+span{
+    position: relative;
+    left: 12%;
+    font-size: 17px;
+    color: rgb(55, 49, 49,90%);
+    @media(max-width: 870px){
+        left: 12%;
+        font-size: 15px;;
+    }
+   @media(max-width: 475px){
+    left: 8%;
+    position: absolute;
+    top: 120%;
+   }
+}
+}
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="238.285" height="238.285" viewBox="0 0 238.285 238.285">
+  <defs>
+    <filter id="Oval_4" x="0" y="0" width="238.285" height="238.285" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feFlood flood-color="#a07900" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="next" transform="translate(105 107.142) rotate(-45)">
+    <g transform="matrix(0.71, 0.71, -0.71, 0.71, 1.51, -150.01)" filter="url(#Oval_4)">
+      <path id="Oval_4-2" data-name="Oval 4" d="M10,0A10,10,0,1,0,20,10,10,10,0,0,0,10,0Z" transform="translate(105 107.14) rotate(-45)" fill="#fff"/>
+    </g>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M3.125,3.914.164,6.873a.559.559,0,0,0,.792.79L4.311,4.31a.558.558,0,0,0,.016-.771L.959.163a.559.559,0,1,0-.792.79Z" transform="translate(9.177 6.087)" fill="#6e53ff"/>
+  </g>
+</svg>

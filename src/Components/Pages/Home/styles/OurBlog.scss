@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.Our-Blog{
+    margin: 10% 4%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -2%;
+    span{
+        font-weight: bold;
+    }
+h4{
+    display: flex;
+    position: relative;
+    padding: 0 1%;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+@media(max-width: 1198px){
+    margin-top: 10%;
+}
+@media(max-width: 1160px){
+    margin-top: 71%;
+}
+}
+.Link-Ourblog{
+    position: relative;
+    display: flex;
+    margin-left: 84%;
+    border: 1px solid rgba(var(--main-rgb),100%);
+    margin-top: -1%;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 11%;
+    height: 41px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    a{
+        color: var(--main-color);
+    }
+    &:hover{
+         transform: translateX(15px);
+         -webkit-transform: translateX(15px);
+    }
+    @media(max-width: 980px){
+        margin-left: 78%;
+        font-size: 15px;
+        width: 28%;
+        height: 38px;
+
+    }
+    @media(max-width: 338px){
+        margin-left: 66%;
+        width: 34%;
+        
+    }
+}
+.Cards-OurBlog{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.ontainer{
+    border: 1px solid rgba(112,112,112,21%);
+    height: fit-content;
+    position: relative;
+    width: 27%;
+    border-radius: 20px;
+    @media(max-width: 920px){
+        width: max(30%,2vw);
+    }
+    @media(max-width: 824px){
+        width: max(40%,2vw);
+    }
+    @media(max-width: 550px){
+        width: max(60%,3vw);
+    }
+    
+}
+.Title-Ourblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 79%;
+    margin-left: 5%;
+    padding: 5% 0%;
+    font-family: 'Poppins', sans-serif;
+p{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    @media(max-width: 532px){
+        font-size: 15px;
+    }
+
+}
+@media(max-width: 1091px){
+    width: max(100%,2vw);
+}
+}
+.OurBlog-Container:hover .Image-OurBlogContainer{
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.Image-OurBlogContainer{
+    width: 100%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.Time-ViewOublog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -7%;
+    .Time-Container{
+        width: 20px;
+        height: 80px;
+        @media(max-width: 1349px){
+            left: 2%;
+            position: relative;
+            height: 73px;
+        }
+        @media(max-width: 760px){
+            width: 17px;
+        }
+    
+    }
+    p{
+        position: relative;
+        left: -7%;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        @media(max-width: 1349px){
+            left: -3%;
+            font-size: 12px;
+        }
+        @media(max-width: 1003px){
+            left: -1%;
+        }
+        @media(max-width: 760px){
+            font-size: 11px;
+        }
+        
+    } 
+    @media(max-width: 1349px){
+        justify-content: space-between;
+    }
+   
+}
+.View-Container{
+    width: 22px;
+    height: 51px;
+    font-family: 'Poppins', sans-serif;
+}
+.View-OurBlog{
+    position: relative;
+    font-size: 15px;
+    left: -7%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.OurBlog-Container{
+    border: 1px solid rgba(112,112,112,21%);
+    height: fit-content;
+    position: relative;
+    width: 27%;
+    border-radius: 20px;
+    @media(max-width: 920px){
+        width: max(30%,2vw);
+    }
+    @media(max-width: 824px){
+        width: max(40%,2vw);
+    }
+    @media(max-width: 550px){
+        width: max(84%,3vw);
+    }
+    
+}
+.Link-OUrArticle{
+    color: #000;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <g id="Group_38494" data-name="Group 38494" transform="translate(-149 -394)" opacity="0.8">
+    <path id="Icon_ionic-md-book" data-name="Icon ionic-md-book" d="M13.244,5.637,8.8,6.472,4.361,5.637a.92.92,0,0,0-.986.981V13c0,.54.418.851.986.981l4.442.832,4.442-.835c.569-.13.986-.441.986-.981V6.618A.92.92,0,0,0,13.244,5.637Zm0,7.359L9.3,13.831V7.45l3.946-.835Zm-4.937.835L4.361,13V6.618l3.946.835Z" transform="translate(149.697 394.062)"/>
+    <g id="Ellipse_222" data-name="Ellipse 222" transform="translate(149 394)" fill="none" stroke="#0f0d0d" stroke-width="1">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+    </g>
+  </g>
+</svg>

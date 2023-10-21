@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.Background-gotopremium{
+    background:  linear-gradient(530deg, #00000026,rgba(0,0,0,0.15)),
+    url('../../../../assets/Gotopremium/Premium.webp');
+    position: relative;
+    width: 100%;
+    margin: max(37px,14%)0% max(10px,11%);
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    padding: 1% 1% 16% 1%;
+    .Icon-crown-Container{
+        position: relative;
+        display: flex;
+        border: 1px solid transparent;
+        width: max(3.5%,2vw);
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
+        margin: max(10px,1%)46% max(0px,0px);
+        background:rgba(255,255,255,26%);
+        border-radius:11px;
+        .Icon-Crown{
+            width: 60%;
+        }
+        @media(max-width: 1349px){
+            width: max(3.5%,4vw);
+
+        }
+        @media(max-width: 1370px){
+            width: max(4.2%,4vw);
+        }
+        @media(max-width: 1230px){
+            width: max(4.3%,4vw);
+        }
+        @media(max-width: 1180px){
+            width: max(4.4%,4vw);
+        }
+        @media(max-width: 1150px){
+            width: max(5%,2vw);
+        }
+        @media(max-width: 1060px){
+            width: max(5.3%,5vw);
+        }
+        @media(max-width: 978px){
+            width: max(5.6%,2vw);
+        }
+        @media(max-width: 850px){
+            width: max(6.6%,2vw);
+        }
+        @media(max-width: 810px){
+            width: max(6.7%,2vw);
+        }
+        @media(max-width: 770px){
+            width: max(7%,2vw);
+        }
+        
+        @media(max-width: 720px)
+        {
+            width: max(8%,2vw);
+        }
+        @media(max-width: 629px){
+            width: max(9%,2vw);
+        }
+        @media(max-width: 540px){
+            width: max(10%,2vw);
+        }
+        @media(max-width: 508px){
+            width: max(12%,2vw);
+        }
+        @media(max-width: 420px){
+            width: max(13%,2vw);
+        }
+        @media(max-width: 359px){
+            width: max(15%,2vw);
+        }
+        @media(max-width: 333px){
+            width: max(16%,2vw);
+        }
+        @media(max-width: 310px){
+            width: max(17%,2vw);
+        }
+      
+        }
+    
+    .Description-Premium{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: max(43%,2vw);
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin: max(28px,1%)31%;
+        text-align: center;
+        p{
+            font-weight: 500;
+            color: white;
+        }
+        @media(max-width: 1349px){
+            width: max(49%,2vw);
+        }
+        @media(max-width: 1280px){
+            width: max(50%,2vw);
+        }
+        @media(max-width: 1270px){
+            font-size: 14px;
+        }
+        @media(max-width: 1230px){
+            margin: max(24px,1%)31%;
+        }
+        @media(max-width: 1200px){
+            margin: max(15px,1%)31% max(29px,1%);
+        }
+        @media(max-width: 1150px){
+            width: max(58%,2vw);
+            margin: max(15px,1%)26% max(25px,1%);
+        }
+        @media(max-width: 1060px){
+            margin: max(15px,1%)26% max(28px,2%);
+        }
+        @media(max-width: 993px){
+            width: max(65%,2vw);
+        }
+        @media(max-width: 887px){
+            width: max(70%,2vw);
+            margin: max(15px,1%)22% max(28px,2%);
+        }
+        @media(max-width: 824px){
+            width: max(75%,2vw);
+        }
+        @media(max-width: 770px){
+            width: max(80%,2vw);
+            margin: max(15px,1%)18% max(28px,2%);
+        }
+        @media(max-width: 720px){
+            width: max(90%,2vw);
+            margin: max(15px,1vw)11% max(28px,2%);
+        }
+       
+    
+       
+        
+    }
+    .Button-Premium{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        .Premium-Button{
+            position: relative;
+            display: flex;
+            width: 9.5%;
+            justify-content: center;
+            border-radius: 30px;
+            height: 6vh;
+            align-items: center;
+            margin-right: 2%;
+            border: 1px solid transparent;
+            background-color: #fff;
+            font-family: 'Poppins', sans-serif;
+            
+            color: var(--main-color);
+            &:hover{
+                background-color: #ee9812;
+                color: #fff;
+            }
+            @media(max-width: 1320px){
+                width: max(10%,2vw );
+            }
+            @media(max-width: 1180px){
+                width: max(10.3%,2vw);
+            }
+            @media(max-width: 1150px){
+                width: max(11.3%,2vw );
+            }
+            @media(max-width: 1060px){
+                width: max(12%,2vw);
+            }
+            @media(max-width: 993px){
+                width: max(13%,2vw);
+
+            }
+            @media(max-width: 887px){
+                width: max(14%,2vw);
+            }
+            @media(max-width: 850px){
+                width: max(16%,2vw);
+            }
+            @media(max-width: 770px){
+                width: max(17%,2vw);
+            }
+            @media(max-width: 643px){
+                width: max(19%,2vw);
+            }
+            @media(max-width: 560px){
+                width: max(21%,2vw);
+            }
+            @media(max-width: 508px){
+                width: max(23%,2vw);
+            }
+            @media(max-width: 468px){
+                width: max(30%,2vw);
+            }
+            @media(max-width: 359px){
+                width: max(33%,2vw);
+            }
+            @media(max-width: 333px){
+                width: max(35%,2vw);
+            }
+            @media(max-width: 310px){
+                width: max(38%,2vw);
+            }
+           
+        }
+        .Addtocart-button{
+            display: flex;
+            position: relative;
+            width: 9.5%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            margin-right: 3%;
+            height: 6vh;
+            background-color: #fff;
+            border: 1px solid transparent;
+            color: var(--main-color);
+            font-family: 'Poppins', sans-serif;
+            &:hover{
+                background-color: #ee9812;
+                color: #fff;
+            }
+            @media(max-width: 1320px){
+                width: max(10%,2vw);
+            }
+            @media(max-width: 1180px){
+                width: max(10.3%,2vw);
+            }
+            @media(max-width: 1150px){
+                width: max(11.3%,2vw);
+            }
+            @media(max-width: 1060px){
+                width: max(12%,2vw);
+            }
+            @media(max-width: 993px){
+                width: max(13%,2vw);
+            }
+            @media(max-width: 887px){
+                width: max(14%,2vw);
+            }
+            @media(max-width: 850px){
+                width: max(16%,2vw);
+            }
+            @media(max-width: 770px){
+                width: max(17%,2vw);
+            }
+            @media(max-width: 643px){
+                width: max(19%,2vw);
+            }
+            @media(max-width: 560px){
+                width: max(21%,2vw);
+            }
+            @media(max-width: 508px){
+                width: max(23%,2vw);
+            }
+            @media(max-width: 468px){
+                width: max(30%,2vw);
+            }
+            @media(max-width: 359px){
+                width: max(33%,2vw);
+            }
+            @media(max-width: 333px){
+                width: max(33%,2vw);
+            }
+            @media(max-width: 310px){
+                width: max(38%,2vw);
+            }
+           
+        }
+
+         @media (max-width:1349px){
+            margin-top: -1.5%;
+         }
+      
+    }
+    @media(max-width: 643px){
+        height: 29vh;
+    }
+    @media(max-width: 440px){
+        height: 31vh;
+    }
+    @media(max-width: 333px){
+        height: 34vh;
+    }
+    .backdrop{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: rgba(0,0,0,80%);
+        z-index: 2;
+    }
+}

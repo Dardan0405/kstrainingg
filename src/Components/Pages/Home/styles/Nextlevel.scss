@@ -1,0 +1,1456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+.Homepage .Next{
+    background:linear-gradient(89deg, rgba(15, 13, 15, 70%),   rgba(112, 112, 112, 18%)),  
+    url('../../../../assets/Home/ImagesForHome/Nextlevel.webp');
+    background-repeat:no-repeat;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 7% 22%  4%;
+    margin-right: 10%;
+    margin-top: 4.5%;
+    background-attachment: inherit;
+    position: relative;
+    width: 100%;
+   
+    text-align: inherit;
+    
+   
+    .Learning{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 17%;
+        margin-top: 11%;
+        width: max(81%,2vw);
+        margin-left: -23%;
+        position: relative;
+         
+        @media(max-width: 1349px){
+            margin-bottom: 12%;
+            margin-top: -5%;
+        }
+        @media(max-width: 1248px){
+            width: 91%;
+        }
+        
+        @media(max-width: 1121px){
+            width: 100%;
+        }
+        @media(max-width: 1102px){
+            width:54%;
+        }
+        @media(max-width:986px){
+         
+            width: 50%;
+        }
+        @media(max-width: 980px)
+        {
+            width: 85%;
+            margin-top: -11%;
+            margin-bottom: 25%;
+        }
+        @media (max-width:938px){
+            width: 80%;
+            margin-top: -2%;
+        }
+       
+        @media(max-width:868px){
+            width: 82%;
+        }
+        @media (max-width: 890px)
+        {
+            width: 84%;
+            margin-top: 0;
+        }
+        @media(max-width: 857px){
+            width: 79%;
+        }
+        @media(max-width:826px){
+            width: 85%;
+        }
+        @media(max-width: 776px){
+            width: 96%;
+        }
+        @media(max-width: 696px){
+            width: 99%;
+            margin-top: 1%;
+        }
+        @media(max-width: 648px){
+            width: 89%;
+        }
+
+        @media(max-width:630px){
+            width: 88%;
+            margin-top: 1%;
+        }
+
+        @media(max-width: 573px){
+            width: 98%;
+        }
+        @media(max-width: 567px){
+            width: 100%;
+            margin-top: 6%;
+        }
+        @media(max-width:500px){
+            width: 100%;
+            margin-top: 9%;
+        }
+        @media(max-width: 464px){
+            width: 100%;
+        }
+        @media(max-width:436px){
+            width: 95%;
+            margin-top: -9%;
+
+        }
+        @media(max-width : 400px)
+        {
+            width: 100%;
+        }
+       
+        
+        
+        
+        
+        
+        
+        
+        
+       
+        
+       
+
+        /*@media (max-width: 1102px){
+            width: 41%;
+            margin-top: -12%;
+        }*/
+       
+      /* @media(max-width:500px){
+            width: 88%;
+        }*/
+        
+    }
+      
+   .Learning h1{
+        position: relative;
+        font-size:42px;
+        width: max(77%,2vw);
+       font-weight: bold;
+       font-family: 'Poppins', sans-serif;
+       
+      
+    @media(max-width:1114px){
+        width: max(79%,2vw);
+    }  
+    
+    @media(max-width: 1102px){
+        margin-bottom: 2%;
+        width: max(82%,2vw );
+    }
+
+    @media(max-width: 1086px){
+        width: max(83%,2vw);
+      }
+      
+       @media(max-width:986px){
+        font-size: 23.5px;
+        width: max(95%,2vw);
+        font-weight: bold;
+       }
+       @media (max-width:938px){
+        width: max(81%,2vw);
+        font-size: 26px;
+       } 
+       @media(max-width: 911px){
+        width: max(73%,2vw );
+        font-size: 28px;
+       }
+       @media(max-width:900px){
+        font-size: 24px;
+        width: max(100%,2vw);
+       }
+       @media(max-width:890px){
+        width: max(75%,2vw);
+        font-size: 28px;
+       }
+       @media(max-width: 857px){
+        width: max(80%,2vw);
+        
+       }
+       @media(max-width: 802px){
+        font-size: 27px;
+       }
+       @media(max-width: 740px){
+        width: max(88%,2vw);
+      }
+       
+       @media(max-width: 696px){
+        font-size: 26px;
+
+       }
+       
+       @media(max-width:630px){
+        font-size: 24px;
+        width: max(90%,2vw);
+         margin-bottom: 14%;
+       }
+       @media(max-width: 573px){
+        width: max(95%,2vw);
+      }
+       @media(max-width: 541px){
+        width: max(89%,2vw);
+       }
+       @media(max-width:505px){
+        width: max(90%,2vw);
+       }
+       @media(max-width: 500px){
+        font-size: 23px;
+        width: max(100%,2vw);
+       }
+       
+       
+      @media(max-width: 436px){
+        font-size: 22px;
+        width: max(100%,70vw);
+        margin-bottom: 18%;
+      }
+      @media (max-width: 350px){
+        font-size: 21px;
+        width: max(100%, 77vw);
+      }
+
+    
+    
+     
+        
+   /* @media(max-width: 500px)
+       {
+        font-size: 24px;
+        font-weight: bold;
+        width: 93%;
+       }*/
+    }
+   .Learning span{
+        margin-left: 3%;
+        color: #FFA200;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    }
+    .Learning .img{
+        margin-left: 26%;
+        width: 33%;
+        @media(max-width:1247px){
+            margin-left: 16%;
+        }
+        @media(max-width: 1235px){
+            margin-left: 15%;
+        }
+        @media(max-width: 1224px){
+            margin-left: 16%;
+        }
+        @media(max-width:1206px){
+            margin-left: 25%;
+        }
+        @media(max-width: 1121px){
+            margin-left: 14%;
+        } 
+       @media(max-width: 1102px)
+       {
+        position: relative;
+         margin-left: 28%;
+        width: 54%;
+    
+    }
+   
+    @media(max-width:1035px){
+        margin-left: 26%;
+    }
+    @media(max-width:986px){
+        margin-left: 24%;
+        width: 40%;
+    }  
+    @media(max-width:980px){
+        margin-left: 70%;
+        width: 25%;
+    }
+    @media(max-width: 938px){
+
+        margin-left: 15%;
+        width: 28%;
+    }
+   
+    @media(max-width: 911px){
+
+        margin-left: 28%;
+        width: 30%;
+    }
+    @media(max-width: 900px){
+        margin-left: -2%;
+        width: 17%;
+    }
+    
+    @media (max-width: 890px){
+        margin-left: 25%;
+        width: 37%;
+    }
+    
+    @media(max-width:776px){
+        margin-left: 10%;
+        width: 33%;
+    }
+    @media(max-width:720px){
+        margin-left: 13%;
+    }
+    
+    
+     
+    @media(max-width: 696px){
+        margin-left: 11%;
+        
+    } 
+    @media(max-width: 675px){
+        margin-left: 13%;
+    }
+    @media(max-width:648px){
+        margin-left: 25%;
+    }
+    @media(max-width:630px){
+        
+        width: 34%;
+        margin-left: 11%;
+        
+    }
+    @media(max-width: 628px){
+        margin-left: 14%;
+        width: 36%;
+    }
+    @media(max-width: 623px){
+        margin-left: 21%;
+        width: 36%;
+    }
+    
+    @media(max-width:580px){
+        width: 38%;
+    }
+   @media(max-width:572px){
+    width: 36%;
+    margin-left: 14%;
+   }
+    
+    @media(max-width: 563px){
+        margin-left: 15%;
+        width: 35%;
+
+    }
+    @media(max-width:541px){
+        margin-left: 25%;
+    }
+
+   
+    @media(max-width: 532px){
+        margin-left: 22%;
+        width: 39%;
+    }
+  
+    @media(max-width: 505px){
+        margin-left: 26%;
+    }
+    @media(max-width: 500px){
+        margin-left: 13%;
+        width: 36%;
+    }
+    @media(max-width: 475px){
+        margin-left: 24%;
+        width: 36%;
+    }
+    @media(max-width:436px){
+        margin-left: 17%;
+        width: 48%;
+    }
+   @media (max-width : 398px ){
+    display: none;
+   }
+    @media(max-width: 375px){
+        margin-left: 23%;
+        width: 54%;
+    }
+  
+   
+        
+       
+      
+       
+        
+    }
+   .Learning p{
+        margin: max(5%,1vw);
+        font-size: max(15.5px,0.5vw);
+        width: max(59%,2vw);
+        margin-left: 0%;
+        margin-top:3%;
+
+        font-family: 'Poppins', sans-serif;
+     /* @media(max-width: 1500px){
+        font-size: 12px;
+        width: 100%;
+
+       }*/
+   @media(max-width:630px){
+    margin-top: -13%;
+   }
+   @media(max-width: 410px){
+    width: max(90%, 2vw);
+    font-size: max(14px, 0.5vw);
+   }
+   @media(max-width: 400px){
+    width: max(84%, 2vw);
+   }
+   @media(max-width: 308px){
+    width: max(88%, 2vw);
+   }
+}
+
+
+
+@media(max-width:1350px )
+{
+    .Homepage .Next{
+        
+        margin-top: 5%;
+        padding: 18% 5% 5% 26%;
+       
+        width: 100%;
+
+
+    }
+}
+@media(max-width:1102px){
+    .Homepage .Next{
+        padding: 20% 7% 4% 25%;
+        margin-top: 8%;
+    }
+}
+@media(max-width: 1000px){
+    .Homepage .Next{
+        margin-top: 0;
+    }
+}
+@media(max-width:999px){
+    .Homepage .Next{
+        margin-bottom: 10%;
+    }
+}
+@media(max-width:980px){
+    .Homepage .Next{
+        padding: 26% 7% 4% 25%;
+        margin-bottom: 20%;
+      
+    }
+}
+    @media(max-width:938px){
+        .Homepage .Next{
+        padding: 21% 7% 4% 25%;
+    }
+}
+@media(max-width:890px){
+    .Homepage .Next{
+        margin-bottom: 24%;
+    }
+}
+@media(max-width:797px){
+    .Homepage .Next{
+        margin-bottom: 29%;
+    }
+}
+@media(max-width:720px){
+    .Homepage .Next{
+        margin-bottom: 36%;
+    }
+}
+@media(max-width:667px){
+    .Homepage .Next{
+        margin-bottom: 42%;
+    }
+}
+@media(max-width:610px){
+    .Homepage .Next{
+        margin-bottom: 55%;
+    }
+}
+@media(max-width:547px){
+    .Homepage .Next{
+        margin-bottom: 61%;
+    }
+
+}
+@media(max-width:473px){
+    .Homepage  .Next{
+        margin-bottom: 74%;
+    }
+}
+@media(max-width:430px){
+    .Homepage .Next{
+        margin-bottom: 81%;
+    }
+}
+@media(max-width:400px){
+    .Homepage .Next{
+        margin-bottom: 105%;
+    }
+}
+
+.Links {
+    display: flex;
+    position: absolute;
+    bottom: -15%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+    font-size: 19px;
+    width: max(50%,2vw);
+    margin-top: 0;
+    margin-left: -3%;
+    
+    @media(max-width: 1102px)
+    {
+        width: 95%;
+
+    }
+    @media(max-width: 980px){
+        width: 60%;
+    }
+    @media(max-width:938px){
+        width: 70%;
+    }
+    @media(max-width:870px){
+        width: 71%;
+    }
+    @media(max-width:868px){
+        width: 72%;
+        }
+    @media(max-width: 750px){
+        width: 75%;
+    }
+    @media(max-width:745px){
+        width: 75%;
+    }
+    @media(max-width: 655px){
+        width: 98%;
+    }
+    @media(max-width: 639px){
+        width: 100%;
+        top: 115%;
+    }
+    @media(max-width: 600px){
+        width: 85%;
+    }
+    @media(max-width:599px){
+        width: 93%;
+    }    
+    @media(max-width:550px){
+        width: 85%;
+    }
+    @media(max-width: 573px){
+        width: 100%;
+        margin-left: 1%;
+    }
+    @media(max-width: 480px){
+        width: 91%;
+    }
+
+    
+    @media(max-width: 464px){
+        width: 100%;
+    }
+    @media(max-width: 400px){
+        width: 100%;
+    }
+    
+    
+   
+
+
+   
+    
+    /*@media(max-width: 500px){
+        width: 100%;
+     }
+    */
+}
+    .Join-for-free{
+        font-size: max(13px,0.5vw);
+        border-radius: max(30px,1vw);
+        font-weight: 500;
+        position: relative;
+        left: -4.5%;
+        max-width: 100%;
+        min-width: max(86px,1vw);
+        padding: 13px 34px;
+        background: var(--main-color);
+        color: #fff;
+        text-decoration: none;
+        
+        font-family: 'Poppins', sans-serif;
+       
+        @media(max-width:573px){
+            padding: 11px 32px;
+        }
+        @media(max-width:527px){
+            padding: 10px 20px;
+        }
+    @media(max-width: 464px){
+
+        font-size: max(9px,1vw);
+        font-size: 11px;
+        min-width: max(110px,1vw);
+    }
+    
+   
+    }
+    .Play{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        max-width: 100%;
+        background-color: transparent;
+        border-color: transparent;
+        min-width: max(122px,1vw );
+        font-size: 21px;
+        cursor: pointer;
+
+        h4{
+            position: relative;
+            left: 9%;
+            font-size: 15px;
+            width: 83%;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            @media(max-width:986px){
+
+                width: 85%;
+            }
+            @media(max-width:464px){
+                font-size: 14px;
+                
+            }
+            @media(max-width:404px){
+                font-size: 12px;
+            }
+
+           
+            
+            @media(max-width: 389px){
+                font-size: 11px;
+
+            }
+        }
+       
+    
+    }
+    .circle{
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        border-radius: 50%;
+        justify-content: space-between;
+        width: max(51px,1vw);
+        height: 41px;
+        justify-content: center;
+        align-items: center;
+       @media(max-width: 986px){
+        width: max(39px,1vw);
+        height: 35px;
+       }
+       @media(max-width: 464px)
+       {
+        width: max(39px,1vw);
+        height: 34px;
+       }
+       
+       
+    }
+    .triangle{
+        width: 19px;
+        height: 23px;
+        color: var(--main-color);
+        @media(max-width: 464px){
+            width: 19px;
+            height: 23px;
+        }
+   
+    
+    }
+.Next .Card{
+    width:max(33%,2vw);
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    height: 85px;
+    justify-content: center;
+    margin-top: -45%;
+    float: right;
+    background-color:white;
+    border-radius:20px;
+    margin-right: -10%; 
+  
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    &:hover{
+        transform: translateX(30px);
+        -webkit-transform: translateX(30px);
+        
+    }
+   @media(max-width: 1349px){
+
+    right: 31%;
+    margin-top: -37%;
+   }
+   @media(max-width:1241px){
+    margin-top: -37%;
+    right: 30%;
+   }
+   @media(max-width: 1157px){
+    margin-right: -10%;
+    margin-top: -37%;
+
+   }
+   @media(max-width:980px){
+    margin-top: -19%;
+    margin-right: -17%;
+   }
+   @media(max-width: 944px){
+    margin-right: -7%;
+   }
+   @media(max-width: 812px){
+    width: max(39%,2vw);
+    margin-right: -9%;
+   }
+   @media(max-width:761px){
+    width: max(41%,2vw);
+    margin-right: -5%;
+   }
+   @media(max-width:667px){
+    width: max(42%,2vw);
+    margin-right: -15%;
+    right: 41%;
+    margin-top: -10%;
+   }
+   @media(max-width:633px){
+    width: max(46%,2vw );
+   }
+   @media(max-width:610px){
+    width: max(46%,2vw);
+    right: 45%;
+    margin-top: -3%;
+   }
+   @media(max-width: 582px){
+    width: max(51%,2vw);
+   }
+   @media(max-width: 518px){
+    width: max(59%,2vw);
+   }
+  
+   @media(max-width: 449px){
+    width: max(70%,2vw);
+   }
+   @media(max-width:473px){
+    margin-top: 4%;
+
+   }
+   @media(max-width:400px){
+    width: max(79%,2vw);
+    margin-top: 12%;
+    right: 49%;
+    margin-right: -15%;
+   }
+}
+
+
+  
+    
+    .Container{
+     display:flex; 
+     width:100%;
+     position: relative;
+     align-items: center;
+     justify-content: flex-start;
+     
+}
+
+
+
+
+.Container .Logo{
+    position:relative;
+    margin-left:6%;
+    display: flex;
+    .square{
+        background-color: rgb(233,81,91,15%);
+        height: 51px;
+        width: 53px;
+        border-radius: 9px;
+        
+    }
+    .Grpahic-Design{
+        height: 57%;
+        width: 79%;
+        margin-left: 9%;
+        margin-top: 23%;
+
+        
+ 
+}
+}
+ .Container .Info{
+    display:flex;
+    margin-bottom:5%;
+    position:relative;
+    flex-direction:column;
+    height:71px;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width: max(51%,2vw);
+    margin-left: 3%;
+    margin-top: 12%;
+    
+    p{
+        font-size: 11.5px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+        
+        color: #000;
+        position: absolute;
+        left: 3%;
+        top: 7%;
+       
+    } 
+    h4{
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        font-weight: 600;
+        font-size:14px;
+        color: #000;
+        top: 40%;
+        left: 4%;
+        
+}
+ }
+.Container .Arrow-r{
+   
+    position:absolute;
+    right: 7%;
+    bottom: 35%;
+    .Right{
+        width: 15px;
+        height: 7px;
+    }
+}
+
+
+.Next .Card3{
+    background-color: white;
+    width: max(24%,2vw);
+    float: right;
+    margin-top: -35%;
+    margin-right: -32%;
+    height: 204px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6%;
+  
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    &:hover{
+        transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        
+    }
+  
+
+
+    
+ 
+.Container3{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 1986px){
+    width:max(25%,2vw);
+}
+@media(max-width:1349px){
+    margin-right: -3%;
+    margin-top: -26%;
+}
+@media(max-width:1241px){
+    margin-right: -55%;
+    margin-top: -26%;
+}
+@media(max-width: 1157px){
+    margin-right: -56%;
+    margin-top: -23%;
+}
+@media(max-width:980px){
+    margin-right: -56%;
+    margin-top: -3%;
+}
+@media(max-width: 970px)
+{
+    width: max(27%,2vw);
+    margin-right: -57%;
+    
+}
+
+@media(max-width: 944px){
+    width: max(29%,2vw);
+}
+@media(max-width: 812px){
+    width: max(33%,2vw);
+    margin-right: -57%;
+}
+@media(max-width:790px){
+    margin-top: -2%;
+}
+@media(max-width: 761px){
+    width: max(31%,2vw);
+}
+@media(max-width:722px){
+    margin-top: 2%;
+}
+@media(max-width:667px){
+    margin-top: 11%;
+
+}
+@media(max-width:633px){
+    width: max(34%,2vw);
+}
+@media(max-width:610px){
+    margin-top: 24%;
+
+}
+@media(max-width: 582px){
+    width: max(37%,2vw);
+}
+@media(max-width: 533px){
+    width: max(43%,2vw);
+    margin-right: -70%;
+}
+@media(max-width:473px){
+    margin-top: 35%;
+}
+@media(max-width: 460px){
+    width: max(46%,2vw);
+    margin-right: -75%;
+
+}
+@media(max-width:430px){
+    width: max(47%,2vw);
+    margin-right: -75%;
+    margin-top: 7%;
+}
+@media(max-width: 400px){
+    width: 60%;
+    margin-right: -64%;
+    margin-top: 13%;
+}
+}
+.Container3 .Logo1{
+    position: relative;
+    margin-right: 12%;
+    margin-top: 28%;
+    .Circle-student{
+        background-color:rgb(75, 60,153,14%) ;
+        border-radius: 50%;
+        height: 52px;
+        width: 52px;
+    }
+    .total-students{
+        height: 100%;
+        width: 64%;
+        position: relative;
+        margin-left: 19%;
+    }
+}
+.Container3 .info1{
+    display: flex;
+    height: 51%;
+    flex-direction: column;
+    align-items: center;
+    width: max(65%);
+    justify-content: center;
+    margin-bottom: 27%;
+    margin-left: -9%;
+    h4{
+        color: #000;
+        font-weight: 500;
+        font-size: 20px;
+        margin: 15%;
+        margin-bottom: 22%;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        font-size: 13px;
+        margin-top: -18%;
+    }
+    @media(max-width: 688px){
+        width: max(70%);
+    }
+    @media(max-width: 639px){
+        width: 100%;
+    }
+}
+.Container3 .Students{
+    display: flex;
+    flex-direction: row;
+    margin-left: 19%;
+    margin-top: 12%;
+    .Student1{
+        @media(max-width: 761px){
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .Student2{
+        margin-left: -8%;
+        @media(max-width: 761px){
+            width: 24px;
+            height: 24px;
+        }
+
+    }
+    .Student3{
+        margin-left: -10px;
+        @media(max-width: 761px){
+            width: 24px;
+            height: 24px;
+        }
+
+    }
+.Student4{
+    margin-left: -10px;
+    @media(max-width: 761px){
+        width: 24px;
+        height: 24px;
+    }
+
+}
+.Student5{
+    margin-left: -12px;
+    @media(max-width: 761px){
+        width: 24px;
+        height: 24px;
+    }
+}
+.Student6{
+    margin-left:-11px ;
+    @media(max-width: 761px){
+        width: 24px;
+        height: 24px;
+    }
+}
+.Student7{
+    margin-left: -11px;
+    @media(max-width: 761px){
+        width: 24px;
+        height: 24px;
+    }
+
+}
+}
+.Card2{
+    background-color: #fff;
+    width: max(23%,2vw);
+    float:right ;
+    height: 204px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 6%;
+    margin-top: -30%;
+    margin-right: -3%;
+    
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    &:hover{
+        transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        
+    }
+    @media(max-width: 1986px){
+        width: max(25%,2vw);
+    }
+    @media(max-width: 1349px)
+    {
+        margin-right: 28%;
+        margin-top: -24%;
+    }
+    @media(max-width: 1157px){
+        margin-top: -23%;
+       
+    }
+    @media(max-width: 980px){
+        margin-top: -2%;
+        margin-right: 23%;
+    }
+@media(max-width: 970px){
+    width: max(27%,2vw);
+    right: 7%;
+
+}
+@media(max-width:944px){
+    width: max(29%,2vw);
+}
+@media(max-width: 812px)
+{
+    width: max(31%,2vw);
+    right: 16%;
+}
+@media(max-width: 761px){
+    width: max(32%,2vw);
+    right: 16%;
+    margin-top: 2%;
+}
+@media(max-width:667px){
+    margin-top: 11%;
+    margin-right: -5%;
+}
+@media(max-width:635px){
+    width: 34%;
+}
+@media(max-width:633px){
+    width: max(34%,2vw);
+}
+@media(max-width:610px){
+    margin-top: 24%;
+
+}
+@media(max-width: 582px)
+{
+    width:max(37%,2vw);
+}
+@media(max-width: 582px){
+    right: 24%;
+}
+@media(max-width: 533px){
+    width: max(43%,2vw);
+}
+@media(max-width: 460px){
+    width: max(46%,2vw);
+}
+@media(max-width: 473px){
+    margin-top: 34%;
+}
+@media(max-width:430px){
+    width: 57%;
+    margin-top: 7%;
+right: 34%;
+margin-right: 18%;
+}
+@media(max-width: 400px){
+    width: 60%;
+    margin-top: 12%;
+    margin-right: 8%;
+    right: 65%;
+}
+}
+.Card2 .Container2{
+    width: 100%;
+    margin-bottom: -11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(214,214,214,34%);
+}
+ .Bord-Circle{
+
+    width: 49%;
+    height: 55%;
+    position:absolute;
+    top: 12%;
+    border-top: 5px solid #4346e1;
+    border-right: 5px solid #d6d6d6;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+
+   /* position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    &::after{
+        margin-left: 8%;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 157px;
+        height: 154px;
+        border: 8px solid;
+        box-sizing: border-box;
+        border-color: #D6D6D6 #4346E1;
+        border-radius: 50%;
+        transform: rotate(50deg);
+
+
+    }*/
+    @media(max-width: 1200px){
+        width: 54%;
+        height: 55%;
+    }
+   @media(max-width: 1085px){
+    width: 62%;
+    height: 53%;
+
+   } 
+   @media(max-width:1099px){
+    width: 57%;
+    height: 53%;
+   }
+   @media(max-width:1052px){
+    width: 57%;
+    height: 51%;
+   }
+   @media(max-width:980px){
+    width: 63%;
+    height: 52%;
+   }
+   @media(max-width: 970px){
+    width: 61%;
+    height: 53%;
+   }
+
+   @media(max-width:944px){
+    width: 61%;
+    height: 56%;
+
+}
+@media(max-width:870px){
+    width: 55%;
+    height: 49%;
+}
+@media(max-width:854px){
+    width: 59%;
+    height: 49%;
+}
+@media(max-width: 812px){
+    width: 63%;
+    height: 52%;
+}
+
+@media(max-width:761px){
+    width: 65%;
+    height: 49%;
+}
+@media(max-width:667px){
+    width: 67%;
+    height: 47%;
+}
+@media(max-width:636px){
+    height: 47%;
+    width: 65%;
+}
+@media(max-width:650px){
+    height: 46%;
+}
+@media(max-width: 582px){
+    width: 63%;
+    height: 45%;
+}
+@media(max-width: 533px){
+    width: 63%;
+    height: 46%;
+
+}
+@media(max-width: 473px){
+    width: 65%;
+    height: 44%;
+}
+@media(max-width:430px){
+    width: 66%;
+    height: 52%;
+}
+@media(max-width: 360px){
+    width: 66%;
+    height: 47%;
+}
+
+}
+ .Container2 .Precentage-Border{
+    display: flex;
+    color:#000;
+    font-size: 9px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    .Zero{
+        position: absolute;
+        right: 75%;
+        bottom: 50%;
+        @media(max-width: 970px){
+            bottom: 55%;
+        }
+    }
+    .Hundred{
+        position:absolute;
+        left: 73%;
+        bottom: 50%;
+        @media(max-width:970px){
+            bottom: 53%;
+        }
+        @media(max-width: 761px){
+            bottom: 55%;
+        }
+    }
+ }
+ .Container2 .Info2{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    h4{
+        margin-bottom: 8%;
+        margin-top: -22px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 6%;
+        font-family: 'Poppins', sans-serif;
+
+    }
+ }
+ .Card2 .Gold-medal{
+    display: flex;
+     
+    position: absolute;
+    width: 100%;
+    margin-top: 99%;
+    justify-content: flex-start;
+    align-items: center;
+    .Logo2{
+        position: relative;
+        margin-left: 3%;
+        margin-bottom: 35%;
+       
+    }
+    @media(max-width: 1099px){
+        margin-bottom: -10%;
+    }
+    @media(max-width: 1020px){
+        margin-bottom: -13%;
+    }
+    @media(max-width: 761px){
+margin-bottom: -21%;
+    }
+    @media(max-width:603px){
+        margin-bottom: -29%;
+    }
+    @media(max-width: 598px){
+        margin-bottom: -30%;
+    }
+ }
+ .Logo2 .square-percent{
+    background-color: #fff;
+    height: 46px;
+    width: 44px;
+    border-radius: 16px;
+    box-shadow: rgba(255, 187, 0, 65%) 0px 5px 15px;
+    .Medal{
+        height: 50px;
+        width: 52%;
+        margin-left: 24%;
+        @media(max-width: 598px){
+            height: 48px;
+            width: 47%;
+            margin-left: 28%;
+        }
+
+    }
+    @media(max-width: 598px){
+        height: 44px;
+        width: 40px;
+    }
+ }
+.Gold-medal .Info3 {
+    color:#000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 33%;
+    margin-right: 5%;
+    p{
+        font-size: 10px;
+        margin: 3%;
+        width: 95%;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 10%;
+        @media(max-width:1132px){
+            width: 100%;
+        }
+        @media(max-width: 761px){
+            font-size: 9px;
+            margin-bottom: 13%;
+        }
+        @media(max-width:686px){
+            font-size: 8.5px;
+            font-weight: 600;
+        }
+        @media(max-width:660px){
+            font-size: 8px;
+        }
+    }
+    h4{
+        font-size: 9px;
+        margin-right: 57%;
+        margin-bottom: 3%;
+        font-family: 'Poppins', sans-serif;
+        color: #a7a7a7;
+        @media(max-width:761px){
+            font-size: 10px;
+            position:absolute;
+            bottom: -15%;
+        }
+    }
+    @media(max-width:1099px){
+        margin-bottom: 27%;
+
+    }
+    @media(max-width: 1020px)
+    {
+        margin-bottom: 21%;
+    }
+    @media(max-width: 761px){
+        margin-bottom: 30%;
+    }
+}

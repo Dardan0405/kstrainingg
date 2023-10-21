@@ -1,0 +1,104 @@
+.Blog-Page{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: max(1%,11vw);
+.Paniagtion-Blog{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 93%;
+    gap: max(8rem,5vw);
+    .articlesCard{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .img{
+            width: 55%;
+            .inner-img{
+                width: 80%;
+                position: relative;
+                height: 100%;
+                @media(max-width: 900px){
+                    width: 75%;
+                }
+            }
+            @media(max-width: 900px){
+                width: 79%;
+            }
+        }
+        .content{
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: max(0.5rem, 1vw);
+            h1{
+                width: 70%;
+                font-size: max(19px,1.5vw);
+            @media(max-width: 457px){
+                width: 100%;
+            }
+            }
+            span{
+                font-size: max(16px,1vw);
+            }
+            .small-title{
+                font-size: max(19px,1.75vw);
+                font-weight: 600;
+            }
+            p{
+                font-size: max(15px, 1vw);
+            }
+            a{
+                display: flex;
+                justify-content: flex-start;
+                color: #000;
+                align-items: center;
+                gap: max(0.5rem, 0.4vw);
+                font-size: max(16px,1.3vw);
+            }
+
+        }
+        @media(max-width: 900px){
+            flex-direction: column;
+        }
+    }
+    .paginationBttns{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: max(3rem,3vw);
+        margin: max(2rem,2vw);
+        .previous{
+            font-size: max(20px,1.5vw);
+            cursor: pointer;
+        }
+        .next{
+            font-size: max(20px,1.5vw);
+            cursor: pointer;
+        }
+    }
+    @media(max-width: 457px){
+        width: 88%;
+    }
+}
+li{
+    font-size: max(16px,1vw);
+    cursor: pointer;
+}
+.paginationActive{
+    color: red;
+}
+@media(max-width: 670px){
+   padding-top:max(90px, 22vw);
+}
+.Footer{
+    margin-top: 290% ;
+}
+}

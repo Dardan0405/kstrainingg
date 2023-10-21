@@ -1,0 +1,40 @@
+.mobile-toolbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 65.5px;
+    z-index: 2000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:11px 5.5% 10px;
+    .mobile-logo-row a{
+        display: flex;
+        align-items: center;
+        display: none;
+        .mobile-logo-container{
+            content: url('../../../../assets/Home/Logo.webp');
+            height: 56.5px
+        }
+    }
+    button {
+        border: 0;
+        background-color: transparent;
+        font-size: 35px;
+        cursor: pointer;
+        color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.toolbar__sticky{
+    transition: 0.3s ease;
+    -webkit-transition: 0.2s ease;
+    box-shadow: rgba(88, 88, 88, 0.1) 0px 3px 5px 0px;
+} 
+
+    
